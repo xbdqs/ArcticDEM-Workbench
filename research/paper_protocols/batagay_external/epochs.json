@@ -1,0 +1,71 @@
+[
+  {
+    "id": "SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1",
+    "date": "2016-08-15T02:26:38Z",
+    "end_date": "2016-08-15T02:28:18Z",
+    "image_ids": [
+      "103001005A33D400",
+      "103001005A462500"
+    ],
+    "dem": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\dem.tif",
+    "mask": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\bitmask.tif",
+    "matchtag": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\matchtag.tif",
+    "vertical_datum": "WGS84 ellipsoidal height (PGC native)",
+    "units": "m",
+    "source_item": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\source_item.json",
+    "dem_sha256": "084324d86e6e49bf09f877c441462c3f1d22b3dfc2edf54a746f4c3a6dab22cb",
+    "mask_sha256": "0657dd56364cb69665e4ba43a749a953549aba90b521b35bd2b2f7007aa19f00",
+    "matchtag_sha256": "5e8ed894920d17e469c355d45a67087b094074868fa08c366e05830d8c3e7def"
+  },
+  {
+    "id": "SETSM_s2s041_WV01_20180608_1020010076CE0B00_102001007593D900_2m_lsf_seg1",
+    "date": "2018-06-08T05:35:50Z",
+    "end_date": "2018-06-08T05:36:34Z",
+    "image_ids": [
+      "102001007593D900",
+      "1020010076CE0B00"
+    ],
+    "dem": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV01_20180608_1020010076CE0B00_102001007593D900_2m_lsf_seg1\\dem.tif",
+    "mask": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV01_20180608_1020010076CE0B00_102001007593D900_2m_lsf_seg1\\bitmask.tif",
+    "matchtag": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV01_20180608_1020010076CE0B00_102001007593D900_2m_lsf_seg1\\matchtag.tif",
+    "vertical_datum": "WGS84 ellipsoidal height (PGC native)",
+    "units": "m",
+    "source_item": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV01_20180608_1020010076CE0B00_102001007593D900_2m_lsf_seg1\\source_item.json",
+    "dem_sha256": "15836bac74103920784cbc5433edb532bef9d0b7aa93e8c6f4e62b04cf97bad5",
+    "mask_sha256": "5290a135fc7aa4f00bbbde5caa8eaeb5192774587d00f3aec7378ac594c04041",
+    "matchtag_sha256": "40a2f3dc8b3a9fb6e2f0e90984838a207857d6cb316d97b024f785752bfbc622"
+  },
+  {
+    "id": "SETSM_s2s041_WV02_20240724_103001010148FD00_10300101017A7200_2m_seg1",
+    "date": "2024-07-24T08:04:06Z",
+    "end_date": "2024-07-24T08:05:19Z",
+    "image_ids": [
+      "103001010148FD00",
+      "10300101017A7200"
+    ],
+    "dem": "C:\\DoDArcticDEM\\ArcticDEM_Workbench_v0.10.1\\work\\batagay_four_epoch\\run_20261003_120949_031464_4f61ac\\july_source\\dem.tif",
+    "mask": "C:\\DoDArcticDEM\\ArcticDEM_Workbench_v0.10.1\\work\\batagay_four_epoch\\run_20261003_120949_031464_4f61ac\\july_source\\bitmask.tif",
+    "matchtag": "C:\\DoDArcticDEM\\ArcticDEM_Workbench_v0.10.1\\work\\batagay_four_epoch\\run_20261003_120949_031464_4f61ac\\july_source\\matchtag.tif",
+    "vertical_datum": "WGS84 ellipsoidal height (PGC native)",
+    "units": "m",
+    "source_item": "C:\\DoDArcticDEM\\ArcticDEM_Workbench_v0.10.1\\work\\batagay_four_epoch\\run_20261003_120949_031464_4f61ac\\july_source\\source_item.json"
+  },
+  {
+    "id": "SETSM_s2s041_WV03_20240920_104001009ABD8A00_104001009C8E5F00_2m_seg2",
+    "date": "2024-09-20T07:23:21Z",
+    "end_date": "2024-09-20T07:24:23Z",
+    "image_ids": [
+      "104001009ABD8A00",
+      "104001009C8E5F00"
+    ],
+    "dem": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV03_20240920_104001009ABD8A00_104001009C8E5F00_2m_seg2\\dem.tif",
+    "mask": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV03_20240920_104001009ABD8A00_104001009C8E5F00_2m_seg2\\bitmask.tif",
+    "matchtag": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV03_20240920_104001009ABD8A00_104001009C8E5F00_2m_seg2\\matchtag.tif",
+    "vertical_datum": "WGS84 ellipsoidal height (PGC native)",
+    "units": "m",
+    "source_item": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV03_20240920_104001009ABD8A00_104001009C8E5F00_2m_seg2\\source_item.json",
+    "dem_sha256": "9429c2b34f6fea2b576d2fbfd66974898ff95e0a769fcf0ae45d7bce4db0771e",
+    "mask_sha256": "7a7fa57f9f3271cf012ae2dc9166c2f7a04dd84c027dc3aa5599db68a9d2190f",
+    "matchtag_sha256": "1e969206a44636cb6cbb32e57baf408e914b85fe2d31c18843a1d872f9f53e47"
+  }
+]

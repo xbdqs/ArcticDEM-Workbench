@@ -1,0 +1,41 @@
+{
+  "schema": "batagay_common_graph_v1",
+  "runner_version": "2026.10.04.1",
+  "design": "Post-RUN15 diagnostic follow-up; not a preregistered confirmatory test",
+  "question": "How do the frozen WB and xDEM Nuth-Kaab implementations differ after controlling accepted graph topology and raster support?",
+  "sources": "Exact reviewed completed Windows RUN14 and RUN15, verified by canonical JSON and logical raster fingerprints",
+  "dates": [
+    "2016-08-15T02:26:38Z",
+    "2018-06-08T05:35:50Z",
+    "2024-07-24T08:04:06Z",
+    "2024-09-20T07:23:21Z"
+  ],
+  "reference_epoch": 0,
+  "pair_estimates": "Reuse frozen accepted pair translations; do not refit, change thresholds, use rejected pairs or infer new edges",
+  "common_edges": "Intersection of WB and xDEM accepted directed pairs for each fixed reference mask",
+  "connectivity": "Require one connected component spanning all four epochs. Disconnected common graphs are not_identifiable; no four-epoch offsets are estimated for them.",
+  "network": "Unchanged Workbench 0.10.1 equal-edge-weight translation least squares, epoch 0 anchored to zero; no calibrated covariance model",
+  "controls": [
+    "Original accepted graphs reproduced from their frozen offsets",
+    "Common graph solved with identical edge keys for both implementations"
+  ],
+  "shared_support": "RUN15 common support intersected with finite values at all four epochs of all comparable original/common variants. Same pixels used for every region, method and time pair.",
+  "reference_regions": "H_N and H_W intersect optical_common_clear_land; W_SLUMP is the frozen comparison window, not a confirmed geomorphic inventory or stable reference.",
+  "points": "Original coordinates and containing grid cells, without relocation. Missing height remains missing; on_common_support identifies valid comparison support.",
+  "raster_outputs": "Common-network DoD TIFFs and contrast TIFFs are masked to common_graph_support. Four-band epoch stacks retain per-variant support; use the common mask for comparisons.",
+  "resampling": "Same Workbench apply_vector bilinear sampling as RUN15; original stacks reopened and fingerprint-checked or exactly reconstructed only when permitted.",
+  "statistics": "Descriptive statistics and local projection-corrected ground area. No volume, significance test, confidence interval or automatic method winner.",
+  "contrast_arithmetic": "For paired contrasts, float32 stored elevations are cast to float64 before subtraction. DoD contrasts are xDEM minus WB. Median of pixelwise contrast is not a difference of medians.",
+  "decomposition": "Original software contrast = common-graph software contrast + graph-selection contribution, checked per node and per pixel. Descriptive algebra, not a causal or ground-truth attribution.",
+  "missing_inputs": "Fail and preserve diagnostics. Never use uploaded low-resolution preview TIFFs as scientific inputs.",
+  "external_elevation_validation": false,
+  "stable_terrain_verified": false,
+  "volume_estimate": null,
+  "automatic_best_method": null,
+  "limitations": [
+    "Common-edge control conditions on pairs accepted by both implementations and does not rank general robustness.",
+    "Graph closure and software agreement cannot establish absolute elevation accuracy.",
+    "Candidate reference surfaces may still change through snow, vegetation or ground processes.",
+    "Temporal dependence, spatial covariance and independent field accuracy remain uncalibrated."
+  ]
+}

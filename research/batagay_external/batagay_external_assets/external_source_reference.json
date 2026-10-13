@@ -1,0 +1,8 @@
+{
+  "xdem": "0.2.3",
+  "geoutils": "0.2.5",
+  "source_sha256": {
+    "xdem_affine": "dba3236004849fbddf8e9eb44efaff9b59688a39ceb2f37d5462d6ee9e66a11c",
+    "xdem_coreg_base": "de8dd24536a836821f5d643a32fdd852f1da2bd6947c3eafd18fbd24e7bcede3"
+  }
+}

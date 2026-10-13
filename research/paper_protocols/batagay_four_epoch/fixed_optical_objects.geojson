@@ -1,0 +1,519 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:T_N",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.73876798611772,
+              67.59782599206287
+            ],
+            [
+              134.769334861848,
+              67.5978722692415
+            ],
+            [
+              134.76937861131736,
+              67.59338741900014
+            ],
+            [
+              134.73881753295083,
+              67.59334115206595
+            ],
+            [
+              134.73876798611772,
+              67.59782599206287
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "key": "T_N",
+        "role": "fit_candidate",
+        "name": "T_N",
+        "stable_terrain_verified": false,
+        "whole_slump_boundary_verified": false,
+        "selection_basis": "Manual optical interpretation of dated 2016, 2018 and 2024 images; fixed before any RUN_13 fitting",
+        "land_surface": "vegetated reference candidate",
+        "source_grid": "S2A_T53WMR_20180609T025544_L2A red clip EPSG:32653",
+        "source_pixel_vertices": [
+          [
+            40,
+            25
+          ],
+          [
+            170,
+            25
+          ],
+          [
+            170,
+            75
+          ],
+          [
+            40,
+            75
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:T_W",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.7365366416062,
+              67.5870585758556
+            ],
+            [
+              134.74828776298173,
+              67.58707721565546
+            ],
+            [
+              134.74838794367116,
+              67.57765902917346
+            ],
+            [
+              134.73664149907663,
+              67.57764039803378
+            ],
+            [
+              134.7365366416062,
+              67.5870585758556
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "key": "T_W",
+        "role": "fit_candidate",
+        "name": "T_W",
+        "stable_terrain_verified": false,
+        "whole_slump_boundary_verified": false,
+        "selection_basis": "Manual optical interpretation of dated 2016, 2018 and 2024 images; fixed before any RUN_13 fitting",
+        "land_surface": "vegetated reference candidate",
+        "source_grid": "S2A_T53WMR_20180609T025544_L2A red clip EPSG:32653",
+        "source_pixel_vertices": [
+          [
+            30,
+            145
+          ],
+          [
+            80,
+            145
+          ],
+          [
+            80,
+            250
+          ],
+          [
+            30,
+            250
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:H_N",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.74118310676982,
+              67.59199946246572
+            ],
+            [
+              134.75763812520353,
+              67.59202485008234
+            ],
+            [
+              134.7576657002561,
+              67.58933394055197
+            ],
+            [
+              134.74121255396525,
+              67.58930855630696
+            ],
+            [
+              134.74118310676982,
+              67.59199946246572
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "key": "H_N",
+        "role": "holdout_candidate",
+        "name": "H_N",
+        "stable_terrain_verified": false,
+        "whole_slump_boundary_verified": false,
+        "selection_basis": "Manual optical interpretation of dated 2016, 2018 and 2024 images; fixed before any RUN_13 fitting",
+        "land_surface": "vegetated reference candidate",
+        "source_grid": "S2A_T53WMR_20180609T025544_L2A red clip EPSG:32653",
+        "source_pixel_vertices": [
+          [
+            50,
+            90
+          ],
+          [
+            120,
+            90
+          ],
+          [
+            120,
+            120
+          ],
+          [
+            50,
+            120
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:H_W",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.75067580749854,
+              67.5834929616768
+            ],
+            [
+              134.75420061431245,
+              67.58349833582899
+            ],
+            [
+              134.7542472010856,
+              67.57901348250306
+            ],
+            [
+              134.75072306231758,
+              67.57900810953997
+            ],
+            [
+              134.75067580749854,
+              67.5834929616768
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "key": "H_W",
+        "role": "holdout_candidate",
+        "name": "H_W",
+        "stable_terrain_verified": false,
+        "whole_slump_boundary_verified": false,
+        "selection_basis": "Manual optical interpretation of dated 2016, 2018 and 2024 images; fixed before any RUN_13 fitting",
+        "land_surface": "vegetated reference candidate",
+        "source_grid": "S2A_T53WMR_20180609T025544_L2A red clip EPSG:32653",
+        "source_pixel_vertices": [
+          [
+            90,
+            185
+          ],
+          [
+            105,
+            185
+          ],
+          [
+            105,
+            235
+          ],
+          [
+            90,
+            235
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:W_SLUMP",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.76474828662424,
+              67.58620491205139
+            ],
+            [
+              134.77908416908073,
+              67.58622504780429
+            ],
+            [
+              134.78055666427744,
+              67.57949966882053
+            ],
+            [
+              134.77704850389352,
+              67.57779061935946
+            ],
+            [
+              134.76907223668937,
+              67.57661338912817
+            ],
+            [
+              134.76224516877414,
+              67.5780387093507
+            ],
+            [
+              134.7610378956266,
+              67.58126608141416
+            ],
+            [
+              134.76474828662424,
+              67.58620491205139
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "key": "W_SLUMP",
+        "role": "evaluation_window",
+        "name": "W_SLUMP",
+        "stable_terrain_verified": false,
+        "whole_slump_boundary_verified": false,
+        "selection_basis": "Manual optical interpretation of dated 2016, 2018 and 2024 images; fixed before any RUN_13 fitting",
+        "land_surface": "slump observation window, not full geomorphic boundary",
+        "source_grid": "S2A_T53WMR_20180609T025544_L2A red clip EPSG:32653",
+        "source_pixel_vertices": [
+          [
+            150,
+            155
+          ],
+          [
+            211,
+            155
+          ],
+          [
+            217,
+            230
+          ],
+          [
+            202,
+            249
+          ],
+          [
+            168,
+            262
+          ],
+          [
+            139,
+            246
+          ],
+          [
+            134,
+            210
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:X_SLUMP_CHANNEL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.75662891558486,
+              67.5758776226053
+            ],
+            [
+              134.75585015310944,
+              67.58305233230652
+            ],
+            [
+              134.76238913447472,
+              67.5870984609685
+            ],
+            [
+              134.7748069397609,
+              67.59115257913047
+            ],
+            [
+              134.79238554204676,
+              67.59700638186278
+            ],
+            [
+              134.8029398732691,
+              67.60015896038269
+            ],
+            [
+              134.81022963663048,
+              67.60016763877354
+            ],
+            [
+              134.81033758384635,
+              67.58671304912903
+            ],
+            [
+              134.78826981831273,
+              67.5839948273368
+            ],
+            [
+              134.78526539160015,
+              67.5784295848588
+            ],
+            [
+              134.78059741604767,
+              67.57510450219324
+            ],
+            [
+              134.76675133539212,
+              67.57373971933556
+            ],
+            [
+              134.75662891558486,
+              67.5758776226053
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "key": "X_SLUMP_CHANNEL",
+        "role": "excluded_disturbance_envelope",
+        "name": "X_SLUMP_CHANNEL",
+        "stable_terrain_verified": false,
+        "whole_slump_boundary_verified": false,
+        "selection_basis": "Manual optical interpretation of dated 2016, 2018 and 2024 images; fixed before any RUN_13 fitting",
+        "land_surface": "slump observation window, not full geomorphic boundary",
+        "source_grid": "S2A_T53WMR_20180609T025544_L2A red clip EPSG:32653",
+        "source_pixel_vertices": [
+          [
+            115,
+            270
+          ],
+          [
+            112,
+            190
+          ],
+          [
+            140,
+            145
+          ],
+          [
+            193,
+            100
+          ],
+          [
+            268,
+            35
+          ],
+          [
+            313,
+            0
+          ],
+          [
+            344,
+            0
+          ],
+          [
+            344,
+            150
+          ],
+          [
+            250,
+            180
+          ],
+          [
+            237,
+            242
+          ],
+          [
+            217,
+            279
+          ],
+          [
+            158,
+            294
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:P_N",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.74942391726265,
+          67.59075660776335
+        ]
+      },
+      "properties": {
+        "key": "P_N",
+        "role": "sample",
+        "name": "P_N",
+        "surveyed_control": false,
+        "selection_basis": "Optical landmark; fixed coordinates, not selected by DoD"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:P_W",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7530490856496,
+          67.58125412679554
+        ]
+      },
+      "properties": {
+        "key": "P_W",
+        "role": "sample",
+        "name": "P_W",
+        "surveyed_control": false,
+        "selection_basis": "Optical landmark; fixed coordinates, not selected by DoD"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:P_HEAD",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7716511540414,
+          67.57715522799246
+        ]
+      },
+      "properties": {
+        "key": "P_HEAD",
+        "role": "sample",
+        "name": "P_HEAD",
+        "surveyed_control": false,
+        "selection_basis": "Optical landmark; fixed coordinates, not selected by DoD"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batagay:approximate_published_location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.77,
+          67.58
+        ]
+      },
+      "properties": {
+        "key": "P0",
+        "name": "P0",
+        "role": "sample",
+        "surveyed_control": false,
+        "selection_basis": "Unchanged RUN_11/RUN_12 sample location"
+      }
+    }
+  ]
+}

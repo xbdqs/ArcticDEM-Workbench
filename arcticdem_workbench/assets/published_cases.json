@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "revision": "2026-09-11",
+  "cases": [
+    {
+      "id": "batagay_thaw_slump",
+      "name": "Batagay megaslump",
+      "process": "Retrogressive thaw slump",
+      "reference_label": "Kizyakov et al. (2024)",
+      "bbox": [
+        134.73,
+        67.56,
+        134.81,
+        67.6
+      ],
+      "start": "2014-01-01",
+      "end": "2023-12-31",
+      "location_basis": "Kizyakov et al. (2024), Study area: 67.58 N, 134.77 E. The surrounding rectangle is a Workbench pilot query, not a boundary digitized from the paper.",
+      "study_context": "The study examines 2014-2023 topographic evolution using remote sensing, field observations and geological modelling, including UAV surveys in 2019 and 2023.",
+      "epoch_guidance": "First inspect two snow-free acquisitions from similar months in different years. Add 3-6 independent dates only after their valid overlap is checked. Query dates are a search window; they do not assert that any particular strip exists.",
+      "registration_guidance": "Identify terrain outside the expanding headwall, slump floor, drainage and changing vegetation. Keep a separate stable validation area. Compare vertical, robust XYZ and Nuth-Kaab on those same masks; review slope/aspect support before horizontal fitting.",
+      "compare_metrics": [
+        "Surface-height differences on fixed valid pixels (m)",
+        "Signed geometric volume change within fixed target polygons (m3)",
+        "Spatial agreement with independently mapped headwall and floor changes"
+      ],
+      "not_equivalent": [
+        "Surface volume change is not ground-ice volume, thawed sediment flux or carbon emissions.",
+        "A pilot rectangle is not the complete published slump boundary.",
+        "UAV and ArcticDEM epochs, vertical datum and spatial support must be reconciled before numerical validation."
+      ],
+      "first_steps": [
+        "Search the loaded window and inspect the date list; save the query snapshot.",
+        "Check footprints, preview strips and download 2-3 comparable dates.",
+        "Map the actual target, stable reference and separate validation polygons from independent evidence.",
+        "Save the case and fixed sample points; compare methods and export the common-support report."
+      ],
+      "references": [
+        {
+          "label": "Kizyakov et al. (2024), Geomorphology, article 109183",
+          "doi": "10.1016/j.geomorph.2024.109183",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169555X24001338",
+          "evidence": "Study area; fieldwork; 2014-2023 growth sections"
+        }
+      ]
+    },
+    {
+      "id": "karrat_2017_rock_avalanche",
+      "name": "Karrat Fjord 2017",
+      "process": "Rock avalanche",
+      "reference_label": "Svennevig et al. (2020)",
+      "bbox": [
+        -52.39,
+        71.625,
+        -52.28,
+        71.66
+      ],
+      "start": "2015-01-01",
+      "end": "2018-12-31",
+      "event_date": "2017-06-17",
+      "location_basis": "Svennevig et al. (2020), section 3.3.3: 71 deg 38 min 36 sec N, 52 deg 20 min 12 sec W (71.643333, -52.336667). Rectangle selected by Workbench for pilot inspection.",
+      "study_context": "The paper reconstructs the landslide complex with optical imagery, ArcticDEM, radar interferometry and seismic observations. Sections 2.4 and 3.3.3 document incomplete post-event ArcticDEM coverage.",
+      "epoch_guidance": "Choose an acquisition before and one after 17 June 2017. The complex also failed in November 2016: prefer a post-November-2016, pre-June-2017 DEM when isolating the 2017 event. Keep a wider pair only as a separately labelled interval.",
+      "registration_guidance": "Use intact bedrock outside the failure scar, deposits and neighbouring unstable slopes. Check several slope orientations and exclude water, snow and shadow-related failures. Use identical stable and validation masks across methods.",
+      "compare_metrics": [
+        "Timing bracket and spatial pattern of visible subaerial lowering",
+        "Geometric erosion/deposition volume within an explicitly shared observed polygon (m3)",
+        "Residuals on held-out intact terrain and sensitivity to registration method"
+      ],
+      "not_equivalent": [
+        "Partial post-event coverage cannot establish the full mobilized landslide volume.",
+        "DoD does not measure underwater deposits, tsunami run-up or radar line-of-sight displacement.",
+        "A pair spanning both 2016 and 2017 failures cannot isolate the 2017 volume."
+      ],
+      "first_steps": [
+        "Find one suitable pre-event and post-event strip, keeping all source IDs.",
+        "Inspect geometric overlap, then the downloaded masks; retain missing coverage as missing.",
+        "Delineate a subaerial target and independent stable reference; save both.",
+        "Compare methods on the same support; report the measured area next to every volume."
+      ],
+      "references": [
+        {
+          "label": "Svennevig et al. (2020), Earth Surface Dynamics 8, 1021-1038",
+          "doi": "10.5194/esurf-8-1021-2020",
+          "url": "https://esurf.copernicus.org/articles/8/1021/2020/",
+          "evidence": "Sections 2.4, 3.3.2, 3.3.3; Figure 1"
+        }
+      ]
+    },
+    {
+      "id": "vavilov_ice_cap",
+      "name": "Vavilov Ice Cap",
+      "process": "Glacier surface change",
+      "reference_label": "Willis 2018; Zheng 2019",
+      "bbox": [
+        94.58,
+        79.285,
+        94.75,
+        79.315
+      ],
+      "start": "2012-01-01",
+      "end": "2019-12-31",
+      "location_basis": "Zheng et al. (2019), Introduction: 79 deg 18 min N, 94 deg 40 min E. This small window surrounds that published location; it is neither the full catchment nor a validated stable-reference area.",
+      "study_context": "Willis et al. (2018) examine dynamic ice loss; Zheng et al. (2019) extend the analysis with surface-elevation and velocity time series. The latter discusses surge-like behaviour starting in 2013 and subsequent evolution through 2019.",
+      "epoch_guidance": "Start with 2-3 comparable-season strips and inspect their actual dates. Refine or relocate this pilot AOI after previewing glacier terrain. Widen the context to find independent stable ground, then keep each download small enough for the existing pixel limits.",
+      "registration_guidance": "A glacier interior is not a stable registration mask. Do not force fitting on moving ice merely because the pilot window lacks bedrock. Use a justified off-ice reference with sufficient relief; if unavailable, retain raw results as exploratory and document the missing registration reference.",
+      "compare_metrics": [
+        "Surface elevation at fixed map coordinates (m)",
+        "Same-interval surface-height change patterns (m)",
+        "Observed geometric volume change over a shared fixed area (m3)"
+      ],
+      "not_equivalent": [
+        "Fixed-pixel height change does not directly measure ice velocity or local surface mass balance.",
+        "A small AOI volume cannot be compared to full-basin mass loss in gigatonnes.",
+        "Glacier geometry, advection, density and temporal coverage require separate treatment for a mass budget."
+      ],
+      "first_steps": [
+        "Preview the pilot location and draw a small scientifically justified target AOI.",
+        "Check similar-season repeat coverage and availability of separate stable ground.",
+        "Freeze target boundaries, validation masks, acquisition IDs and fixed points before method comparison.",
+        "Match the published spatial and temporal definition before making a quantitative comparison."
+      ],
+      "references": [
+        {
+          "label": "Zheng et al. (2019), Geophysical Research Letters 46, 13892-13902",
+          "doi": "10.1029/2019GL084948",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL084948",
+          "evidence": "Introduction; Figure 1; surface-elevation methods"
+        },
+        {
+          "label": "Willis et al. (2018), Earth and Planetary Science Letters 502, 146-155",
+          "doi": "10.1016/j.epsl.2018.08.049",
+          "url": "https://experts.umn.edu/en/publications/massive-destabilization-of-an-arctic-ice-cap/",
+          "evidence": "Author-institution publication record and abstract"
+        }
+      ]
+    }
+  ]
+}

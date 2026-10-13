@@ -1,0 +1,25 @@
+{
+  "bbox": [
+    134.73,
+    67.56,
+    134.81,
+    67.6
+  ],
+  "ids": [
+    "SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1",
+    "SETSM_s2s041_WV01_20180608_1020010076CE0B00_102001007593D900_2m_lsf_seg1",
+    "SETSM_s2s041_WV01_20220609_10200100C5E62F00_10200100C6C36500_2m_seg1"
+  ],
+  "dates": [
+    "2016-08-15",
+    "2018-06-08",
+    "2022-06-09"
+  ],
+  "query_sha256": "e9627836911ba068e76c37b8970011df8c223b3fd8abac8b3c822d86589733fa",
+  "purpose": "three-epoch coverage pilot; 2018/2022 near-calendar dates, 2016 late-summer sensitivity only",
+  "not_claimed": [
+    "snow_free_verified",
+    "complete_published_target",
+    "independent_accuracy"
+  ]
+}

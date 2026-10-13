@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "batagay_thaw_slump:pilot_query",
+      "properties": {
+        "name": "Batagay megaslump - pilot query only",
+        "role": "aoi",
+        "case_id": "batagay_thaw_slump",
+        "template_revision": "2026-09-11",
+        "boundary_status": "workbench_pilot_query_rectangle",
+        "location_basis": "Kizyakov et al. (2024), Study area: 67.58 N, 134.77 E. The surrounding rectangle is a Workbench pilot query, not a boundary digitized from the paper."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.73,
+              67.56
+            ],
+            [
+              134.81,
+              67.56
+            ],
+            [
+              134.81,
+              67.6
+            ],
+            [
+              134.73,
+              67.6
+            ],
+            [
+              134.73,
+              67.56
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

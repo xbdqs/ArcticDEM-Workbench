@@ -1,0 +1,9 @@
+# Scientific scope and version provenance
+
+The paper combines two distinct experiments. The frozen controlled terrain experiment checks recovery of known injected translations and protected changes. The Batagay experiment compares historical internal and executed xDEM estimators and then controls accepted-graph differences on common evaluation pixels. It measures processing sensitivity, without an independent truth elevation surface. The joint-gradient candidate was absent from the historical real-data external comparison.
+
+Synthetic recovery tolerances are engineering criteria. Optimizer termination, withheld residuals, cycle closure and independent external accuracy measure different properties. A common accepted graph conditions the comparison on edges retained by both implementations; it does not rank overall robustness across all attempted pairs. Graph conditioning can increase inter-implementation differences where the original graph choices partially compensated them.
+
+Software version 0.11.1 is the application baseline. Historical Batagay calculations retain 0.10.1 identity, desktop integration calculations retain 0.11.0 identity, and the controlled engine retains its source hash. The public-source packaging revision changes documentation, tests and distribution support, not numerical application modules. New release checks use newly generated synthetic inputs in a separate directory. They do not recompute or replace paper evidence.
+
+Surface-height change can include snow, vegetation, structures and displacement over slopes. Current volume summaries lack a complete spatially correlated physical uncertainty model. A physical-process or absolute-accuracy paper would require an independently justified observation and uncertainty design. This software/workflow paper does not make those additional claims.

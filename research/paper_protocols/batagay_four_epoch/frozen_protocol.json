@@ -1,0 +1,95 @@
+{
+  "parent_RUN13": {
+    "schema": "batagay_optical_sensitivity_v1",
+    "frozen_before_fitting_utc": "2026-10-02T15:33:16.979330+00:00",
+    "scenes": [
+      {
+        "id": "LC08_L2SP_121013_20160725_02_T1",
+        "datetime": "2016-07-25T02:33:35.639800Z",
+        "sensor": "Landsat-8",
+        "folder": "scenes/LC08_L2SP_121013_20160725_02_T1",
+        "native_reflectance_m": 30,
+        "native_quality_m": 30,
+        "role": "independent_optical_context_not_elevation_control"
+      },
+      {
+        "id": "S2A_T53WMR_20180609T025544_L2A",
+        "datetime": "2018-06-09T02:58:38.497000Z",
+        "sensor": "Sentinel-2",
+        "folder": "scenes/S2A_T53WMR_20180609T025544_L2A",
+        "native_reflectance_m": 10,
+        "native_quality_m": 20,
+        "role": "independent_optical_context_not_elevation_control"
+      },
+      {
+        "id": "S2A_T53WMR_20240724T024548_L2A",
+        "datetime": "2024-07-24T02:48:42.788000Z",
+        "sensor": "Sentinel-2",
+        "folder": "scenes/S2A_T53WMR_20240724T024548_L2A",
+        "native_reflectance_m": 10,
+        "native_quality_m": 20,
+        "role": "independent_optical_context_not_elevation_control"
+      },
+      {
+        "id": "S2B_T53WMR_20180826T030533_L2A",
+        "datetime": "2018-08-26T03:08:27.838000Z",
+        "sensor": "Sentinel-2",
+        "folder": "scenes/S2B_T53WMR_20180826T030533_L2A",
+        "native_reflectance_m": 10,
+        "native_quality_m": 20,
+        "role": "independent_optical_context_not_elevation_control"
+      }
+    ],
+    "reference_variants": {
+      "north": [
+        "T_N"
+      ],
+      "west": [
+        "T_W"
+      ],
+      "combined": [
+        "T_N",
+        "T_W"
+      ]
+    },
+    "holdout_regions": [
+      "H_N",
+      "H_W"
+    ],
+    "target_regions": [
+      "W_SLUMP"
+    ],
+    "methods": [
+      "vertical",
+      "translation",
+      "nuth_kaab"
+    ],
+    "network": "all_independent_pairs_equal_edge_weights",
+    "max_shift_m": 20.0,
+    "block_pixels": 64,
+    "safety_erosion_pixels": 12,
+    "seed": 42,
+    "registration_grid": "frozen RUN_11 EPSG:3413, 2 m",
+    "optical_quality_rule": "S2 SCL in {4,5}, all reflectance bands non-nodata; L8 QA_PIXEL bits 0..5 and 7 clear, QA_RADSAT==0, all bands non-nodata. Nearest-neighbour quality projection, never bilinear classes. Four-scene intersection. This is a quality screen, not stability evidence.",
+    "comparison_support": "Intersection of all three epochs in every completed variant AND the original common support. Fixed masks and sample coordinates; no method-specific comparison supports.",
+    "selection_used_dem_differences": false,
+    "stable_terrain_verified": false,
+    "external_elevation_validation": false,
+    "automatic_best_method": false,
+    "volume_estimate": false,
+    "rate_or_trend_inference": false,
+    "limitations": [
+      "All reference candidates are mostly vegetated; unseen ground/canopy change may be absorbed into registration.",
+      "Optical dates differ from DEM dates, especially July vs September 2024; no season correction or radiometric sensor harmonization.",
+      "H_N and H_W are spatially withheld candidate surfaces, not external surveyed controls.",
+      "W_SLUMP is a repeatable observation window, not the entire Batagay slump; do not compare its volume/area to a published full-slump value.",
+      "Independent-pair cycle closure detects internal inconsistency only; an equal DEM-node bias can still close.",
+      "Fewer than three accepted edges yields no redundant cycle; failures are retained and are not silently replaced by another method."
+    ]
+  },
+  "version": "2026.10.03.1",
+  "old_pair_policy": "retain accepted and rejected records unchanged except index mapping",
+  "dates": "2016-08-15,2018-06-08,2024-07-24,2024-09-20",
+  "support": "intersection of raw4, all completed new stacks, original RUN13 common support and verified baseline3 stacks",
+  "final_regional_warning_threshold": 0.05
+}

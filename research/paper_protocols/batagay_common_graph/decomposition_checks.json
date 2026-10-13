@@ -1,0 +1,74 @@
+[
+  {
+    "reference": "combined",
+    "i": 0,
+    "j": 1,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "combined",
+    "i": 0,
+    "j": 2,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "combined",
+    "i": 0,
+    "j": 3,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "combined",
+    "i": 1,
+    "j": 2,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "combined",
+    "i": 1,
+    "j": 3,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "combined",
+    "i": 2,
+    "j": 3,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "west",
+    "i": 0,
+    "j": 1,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "west",
+    "i": 0,
+    "j": 2,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "west",
+    "i": 0,
+    "j": 3,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "west",
+    "i": 1,
+    "j": 2,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "west",
+    "i": 1,
+    "j": 3,
+    "max_abs_identity_residual_m": 0.0
+  },
+  {
+    "reference": "west",
+    "i": 2,
+    "j": 3,
+    "max_abs_identity_residual_m": 0.0
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "batagay:optical_v1:W_SLUMP",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.76474828662424,
+              67.58620491205139
+            ],
+            [
+              134.77908416908073,
+              67.58622504780429
+            ],
+            [
+              134.78055666427744,
+              67.57949966882053
+            ],
+            [
+              134.77704850389352,
+              67.57779061935946
+            ],
+            [
+              134.76907223668937,
+              67.57661338912817
+            ],
+            [
+              134.76224516877414,
+              67.5780387093507
+            ],
+            [
+              134.7610378956266,
+              67.58126608141416
+            ],
+            [
+              134.76474828662424,
+              67.58620491205139
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "key": "W_SLUMP",
+        "role": "target",
+        "name": "W_SLUMP | fixed window, not whole-slump boundary",
+        "stable_terrain_verified": false,
+        "whole_slump_boundary_verified": false,
+        "selection_basis": "Manual optical interpretation of dated 2016, 2018 and 2024 images; fixed before any RUN_13 fitting",
+        "land_surface": "slump observation window, not full geomorphic boundary",
+        "source_grid": "S2A_T53WMR_20180609T025544_L2A red clip EPSG:32653",
+        "source_pixel_vertices": [
+          [
+            150,
+            155
+          ],
+          [
+            211,
+            155
+          ],
+          [
+            217,
+            230
+          ],
+          [
+            202,
+            249
+          ],
+          [
+            168,
+            262
+          ],
+          [
+            139,
+            246
+          ],
+          [
+            134,
+            210
+          ]
+        ]
+      }
+    }
+  ]
+}

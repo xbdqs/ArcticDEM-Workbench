@@ -1,0 +1,2431 @@
+{
+  "schema": "accepted_run14_external_benchmark_reference_v1",
+  "core_sha256": {
+    "__init__.py": "3dea95b533358f7ffcd08fb3108a8b52ef1947c86ea278967dcc88affd2c0de7",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "cases.py": "516b01bf8964be8a6f889d82e1dd31adabccc48795392409628577ff6293a36f",
+    "cases_ui.py": "84a88831645844b7fa346287750d4e2cf06b4dcee7f1effb675f72e6158e2619",
+    "catalog.py": "e518d8c744078977e466ef19975c5d81e27122534d5253e5c173f56c061b796e",
+    "cli.py": "b598250530a458d621956a58ddce5c6f18a1d289f4f0155d2924ea8d53455ce7",
+    "common.py": "6b36624c0e544f5bce78ba61e2f1502d148a96717adebf753fadd1471e7d00ea",
+    "coreg.py": "f494b6ec40e8cbca497716cfebcbfefaeda360013a6e1eafd64a65fee88bc2c5",
+    "coverage.py": "dbe64d2eb530ba4a5f056300c06317147471f571c1d53dd06c537a43f6dec71b",
+    "coverage_recovery.py": "1108f1ae328aeaec208d2112ab4060486d88fbc4f4c793a5b1e09e3996e35cfa",
+    "coverage_render.py": "9f234c0520950bb7ce4fdd4104204f485bcdc8a88294b4925e2f6783d351087b",
+    "coverage_ui.py": "bb77c13ed4e14ed635084e1d594243720abf51953ba7735d34365b8923e761c5",
+    "demo.py": "62984b4cbe6467164d3dadf14a8448e11549f9f1a37f032d809ef68d893c4c29",
+    "diagnostics.py": "50c993578a2a8144906c97c85eb17055e4ee9b9e4bc21772e8ec2ee5b348b565",
+    "error_structure.py": "72a4ed4bb89ebe9fe8e43e74c8b6a1bb69c08c7d2133f1b3c7798bb61b74650a",
+    "gui.py": "e7d069704e18b23ed0262fb2a1fbeb89f96b8636fc22154553fe0f316a0f7344",
+    "http_range.py": "db8307f873e8c1691bc9e1257021bc4cef031aefb844fc5d3e2c079e49d7e9b6",
+    "network.py": "20f5653ba194f3da830aae596364197abaf00cb25a53dee8290682c2140ad870",
+    "pilots.py": "b2984b92020e7252653ce9437fbcb9b2f66241836e4b56828dcb43e44ed0e0ae",
+    "pipeline.py": "1352cb0319494d14be5626c60b1c18ce4f0eae3b36da9417bae5e5e134f37ead",
+    "plots.py": "857024d6f087182761a043c5e07c420453f96748285f0f34d3e8eb375684f1b2",
+    "project.py": "1f61635ab2beacdc5fae6305a0e7cf669948d319a1388b178d8b9cc7a9904f65",
+    "project_ui.py": "f2d95260162b0e70bc1fdedea8567f604e57de6e32fdb7a9d86d46d62b57e4d4",
+    "raster.py": "a26cee769b39b86be1d8e600bb3efce65a208cf765bed4640e38b8b8549dd6a1",
+    "reporting.py": "8a73a9dc149f338d3da4ca209a17714ce21efdfa6612680eb92189fe158279f0",
+    "scientific_qc.py": "7c4ea4685604b08117d157b7ccfbc713b363e034f16cb0ce0df530597515b2a0",
+    "spatial.py": "31a61d01fade0f28c18064bdbcea062c532c25e1f9869d80754b69a41daa4ea9",
+    "support.py": "06740f44b4382978e9f0707ccf3ea3931394bfd33163d4baae9db27c41839947",
+    "validation_suite.py": "e615866c3f88d4f885315d4258925b24a8c220b8f19c51a012bda18b268fd5c5"
+  },
+  "rasters": {
+    "all_variants_common_support.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "c5fd9081e187c8192db7d56fe61ca7ccc3dc1bec4e54abaaa21954ec764a59e3",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "baseline_three/combined__nuth_kaab/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "e4572869415780b27e81161f3ad9f82bdb2f279bcfc597e9da72f56c9d0cc228",
+      "invalid_mask_sha256": "204ccf09d3b385586acf379331ae2c53f68f63a08f1b0006add428708b9014ac"
+    },
+    "baseline_three/combined__translation/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "8e87d684b8e7b6519f617675b6775c8b64fdf135a67e696ee185bff758406893",
+      "invalid_mask_sha256": "3fb225de22576bfe3ee34c99aa4f6e398ecacf5517af0dafeea0b8bc9505d049"
+    },
+    "baseline_three/combined__vertical/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "1993400f4e78105e83ed80468735d7d6cd0cd774e84ca0dab1fb993fb25d6ff6",
+      "invalid_mask_sha256": "cdc902cd3da08238b1a408ce038f7fd7e434136497ba744c65858e5794bc0c71"
+    },
+    "baseline_three/north__translation/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "3bc7a81db42fa924893b9d4d97fe342fde9bcd0ee4a355b1ab0389c6b1e25d7b",
+      "invalid_mask_sha256": "d9b930ac2eee701dba89973abe8af0e07389150c2c5c7cf8aa92e0e4196cb962"
+    },
+    "baseline_three/north__vertical/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "341ba80ae7317e31395dca1eaf3d95329e0871e59671159418e6687c5a97883d",
+      "invalid_mask_sha256": "cdc902cd3da08238b1a408ce038f7fd7e434136497ba744c65858e5794bc0c71"
+    },
+    "baseline_three/west__nuth_kaab/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "76fdd6d51ce75df4060b1c6645a033517faccb48082b8ea6c24cb224bc6e0fb4",
+      "invalid_mask_sha256": "3108450b9bfe748fe8d9845b465b7cdecbbed13f342880e48e8b7bdb79d523ef"
+    },
+    "baseline_three/west__translation/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "78a0cdaf68faae48d1a1499b1dbe56b52b1ffc9ec85c31da7138a5f5d89c74c8",
+      "invalid_mask_sha256": "4fa4f77cc25ed925b8f13a54d678a182093224311379dd554bce83855805b607"
+    },
+    "baseline_three/west__vertical/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "a98b3773e8965683823fcf8bdef6a10c34da9ee304a96fb329c333acb7bbbe77",
+      "invalid_mask_sha256": "cdc902cd3da08238b1a408ce038f7fd7e434136497ba744c65858e5794bc0c71"
+    },
+    "fit_combined.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "245b40932a566252da39ede08e9936dfce03a012b580ec9e82da37e92063aa8c",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "fit_north.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "10aedb75fb29d5ea244a0528aaae5a21aa2b6e5b366005e11e67e73b389d6866",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "fit_west.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "7b7497d65f539dbc8cbd5b2b8997948d798bb055fec65d3e61c79c3c65e9a04d",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "H_N.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "0faab79a3b7275d485451051593e74037ec3599db2f8fcc00abb0e58635180aa",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "H_W.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "218c1f26903f0e797b82c417af246c959d6e19a782244391f3ad83fbc32b2f61",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "heldout_candidates.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "b8038b492c24b7a44e219c51d3d4be186e469639b6ee5dd6be5fb67b30d9f5ab",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "optical_common_clear_land.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "d8e307392f2ad32d1847b8362962cc430396522ad4e512ce59ce74c515b5bf9f",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "preview_rasters/combined__nuth_kaab_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "174861e179fcd5c80053b5d9f64371ccb51f09359711746896f531928839464a",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/combined__nuth_kaab_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "ffb4ee38aae7a029fc17ebf03b86f564564bbc8ed05d9837651ceabc5f82e559",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/combined__translation_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "3641029993d634ae34280c98c01d588552d52740f32e827c2bea51c235841626",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/combined__translation_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "83f7d02c17585daef4f6f9ac2c92f9ad618c808552047742fb09e76bda6233d0",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/combined__vertical_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "bc4becfdca3e944bfa3f0ab7a28b27a6ece75bd58c6a4408d524f91da79fcc7d",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/combined__vertical_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "d436cf953bedac9428a4801e11c690eca99211ecba47bbe9b644f26c78efb065",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/north__nuth_kaab_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "3e70e01cf8eed9abc8af7260736208e511cd23f0fe5260de5f0e037b680f413f",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/north__nuth_kaab_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "820b7843bba4a5bd3298dc874a5ea1b82b20fe81e9a081cae98bc1614497eddf",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/north__translation_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "21967fe71ebc4b6a163a08f0eeab970c5bebc024b5d4724f51c7688f170929ec",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/north__translation_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "7b42230b09f9ec8e832075a9d2b9fc583c47f1a3e32567b02e6fb4ceb124bc79",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/north__vertical_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "7d0d16070c9898a37c8e95ae2b2ab9bb9012dfd0a4eef378c2731bdd222a5ff9",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/north__vertical_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "ee4d8cd0ac0cf54949ae2bacf0b11ac0afb07deda1d3b85afc54df3117e4157f",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/raw_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "8b042218f4ada4fa24e918140d06b8523e24b148e003591f638c09d7c3259813",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/raw_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "6a4c6f0514e4c0b3640128fb8ed0d6c08659afba5199b080b8418e9330fdfce0",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/west__nuth_kaab_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "ac13d05a17c80af5cb3df25b6f54d72178f2d2f0517af9d4861954f1aff2518f",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/west__nuth_kaab_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "c6c86a19ceace120ed056bedc343f009659fda09cd67714c6239ed2b42cca378",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/west__translation_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "c553ec49cacacf4772a7bc6887b053d6b63285f1c9a8f3e439a68a1aef67b646",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/west__translation_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "516dddec73f37fe84767a45ed7befcac511ab877bebd43e12b244f45ecad8d85",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/west__vertical_2016_2024_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "20133a689153b84dc2e708299840a25c0ed2fc0cca362b696f22497b49adf3a5",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "preview_rasters/west__vertical_2024_July_September_nearest10m.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        452,
+        346
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        10.0,
+        0.0,
+        8142.0,
+        0.0,
+        -10.0,
+        2461158.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "f29fb0b2e7c83f1ad9cea9ae0c18df6f839868da7533c27d4265fe3e81d3e84a",
+      "invalid_mask_sha256": "afcfe4e0e9651dd6f891ad7b603e2e2407215ca2cb070dc28a3ce7b6c5bf55b3"
+    },
+    "products/combined__nuth_kaab/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "5d4d71869b438345b49efbe351fa16e8a1e5efc86ad16fabe7bf88b28324365a",
+      "invalid_mask_sha256": "d77ae1b8c0722d1ff506d5d9be9368fc6cd4c202da71cbd5954e42ae9fb643e6"
+    },
+    "products/combined__nuth_kaab/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "7088e8345c5653cf04bbb0955c976eb91b671defc8c739220a9f43ceb0b329b5",
+      "invalid_mask_sha256": "f89334383870273a0bbbbea748424b7829d304d1c105c0cf86ecd6fa8de548c0"
+    },
+    "products/combined__nuth_kaab/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "7bae634fbfc0c9b7b1b0e86b3b26389519864851034cb22ae37f36f4f09891de",
+      "invalid_mask_sha256": "cd6f294911590646d7e299b222785edf6b9973a5f1bf3583e06ecc77ae84b8b8"
+    },
+    "products/combined__nuth_kaab/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "7906e38b2b632dc1b24a662ff059505ce9953d80390f2e9a4235c2da57eab4f1",
+      "invalid_mask_sha256": "ebb6ae387e12abb8802c31ee53085e1c8dbf3689055d740e7ce13ce2b8e53feb"
+    },
+    "products/combined__nuth_kaab/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "07893e389c12d8f8c281487c33909463918b29f987fc07c2fb00f88f98f6c4bf",
+      "invalid_mask_sha256": "fdca35369ce5c2d94621122ddd5cefe1c48cb43a93cb100a592b075378e643c1"
+    },
+    "products/combined__nuth_kaab/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "f5492ef70ac52990863b1c4bf395d9a9a607ba7b8056fe64c21fd5b3c0bfc912",
+      "invalid_mask_sha256": "7d0bca523b79a97dde064da002a7c3face2a06d0dc9b98b2e3038fda5d4a7480"
+    },
+    "products/combined__nuth_kaab/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "46bcf9736b8f295d93807d3ed78f317baac3fef8f3fceebb49c81b2c069f51ab",
+      "invalid_mask_sha256": "8655366c37f92c41ea3c82166a475152089f7668aa2f9babf5a1ff504843acf6"
+    },
+    "products/combined__translation/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "ed7dee8ac443571cf6f1023482dd607d7f3f49f8a36709dfc7279d90e98ddb2a",
+      "invalid_mask_sha256": "007083fc5afbe5ee872486bbdb67aca95e5a8873e2c6763a9892316e4dcca447"
+    },
+    "products/combined__translation/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "0691b95800478903c9db9de088a06705380209a68b87dfae261a638ce48c0ab4",
+      "invalid_mask_sha256": "9f4a300d6a714958b27287bfbec94d7dc46c747983285e001513ceea2b029f1a"
+    },
+    "products/combined__translation/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "6be5f68ca03d7edba19d55c6f0f5560b7d03cece11df855688956a2fb0136528",
+      "invalid_mask_sha256": "2a75735e54d662f892a7a53bb4960477048a352a30f797133742109a1139a635"
+    },
+    "products/combined__translation/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "96b4a90f41ec22e29238d7c1615f1cb8f0b3fbeab5962b50d992494f730bf6e5",
+      "invalid_mask_sha256": "14e55fb5c3c41df84dbec495e02cd1a10ce69f04b4c05cf7a1747c31e39ca6b1"
+    },
+    "products/combined__translation/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "d16f58e06fb3be406176a8ec61b032eda1a8d1453f731d8476aeae6dc0af6352",
+      "invalid_mask_sha256": "9805f9200eec384a54fcdd9102c3a943fca86158c1cb0fb250c4f62ae9104ef5"
+    },
+    "products/combined__translation/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "1b44e78334da1c4df36d4e120a0e14ea016eed3188154173fba68a2b80fec267",
+      "invalid_mask_sha256": "a5524393144767555df82591690c83d08f6ff655dd4f0ea1075c0251e375539b"
+    },
+    "products/combined__translation/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "6e5347798bfb67800bbaca897033f66f03d4a9303ae00c78d0c114355147d5f9",
+      "invalid_mask_sha256": "92b04a6f41542ff38ab32862f93a8bb255dbc2c166b60bc5de6b4567242a2c75"
+    },
+    "products/combined__vertical/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "c2439a0a95a040b9b7bc24494c7ec607fa25e2e2d8df7ba12168ad4896658fcc",
+      "invalid_mask_sha256": "ce62e3425390a56958489591b18d151f0283a717b0732b9e52ddf8df2452c979"
+    },
+    "products/combined__vertical/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "964d2e7d7804d08125ffd4ca26f4568b7832a484d28cfac4750e3959220ab812",
+      "invalid_mask_sha256": "bbfdc9a1fd210a35cb7409315f002d87a6773f50143bad09b3f0f16b002cd4c2"
+    },
+    "products/combined__vertical/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "8fa24534aca9997e259666cd8e1e6aea3b86e444f2571fbf093abeac9e909f64",
+      "invalid_mask_sha256": "b6711be0120b110108bf69fe6b954c86bc6d3358cb9e310bbeeedb1841a63f1d"
+    },
+    "products/combined__vertical/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "3e6eac08fc9a6f63808c5e383b4ca039ff93d50359fb139dc53fc88cbdb3bcf8",
+      "invalid_mask_sha256": "c9c83571b2c2f178de805ddfb7bc7f17a3e485cbcca52beab875056f3f3e5477"
+    },
+    "products/combined__vertical/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "bfcf915ff8331ac944b6ff779ef69b84cef02fc732e8241c86eec25419573058",
+      "invalid_mask_sha256": "1099b1af38bcf36543b5755213faa5b95a4d8560170a433019988451a4b52571"
+    },
+    "products/combined__vertical/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "af70612ebb4a7405ff7a9a575e65d219ff41216a1a6d0f9064c5f9a9149ea2d1",
+      "invalid_mask_sha256": "91acd75220e0a9b315df70ab44809e998d3ba250fc234dd52cb9188535c1adcb"
+    },
+    "products/combined__vertical/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "8fc90f0242836fc91498034031ff4806cbb03105e3a6ab6282376548d5014377",
+      "invalid_mask_sha256": "1395c18e4b6792cb55d0f1eb09e47df7b6c2e67fcee6fcb3ef86889652ed5acf"
+    },
+    "products/north__nuth_kaab/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "acfb47c129cc7e78708a1ead4fbd15135124003a32a7bcf4cb3bbaf4ce6c5755",
+      "invalid_mask_sha256": "c91d65d30a9460ce5705d6388b4abde3eb2b1e36984b909edf2e2b2bd2673c19"
+    },
+    "products/north__nuth_kaab/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "060b31e34b8605e6777b4a6c5eb68e1d72ba84b8cf6e568ec5aab238004b491b",
+      "invalid_mask_sha256": "514e3464fc841765387763a6768754a274f7b8c3315f52a6f507ab807dce49ca"
+    },
+    "products/north__nuth_kaab/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "5f2e15dd7d9ae891f6f7b68b3b9cfc095f81e423aff5fa1f246fa8b97fc8b9eb",
+      "invalid_mask_sha256": "493d8c578680058551b0da150b1598eff90ecb7706458481bac3a7446d7ffac8"
+    },
+    "products/north__nuth_kaab/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "68ccbd13bc1a7645c012af807ac2d75ea649fa73d91b4617316bdce9a3c94e62",
+      "invalid_mask_sha256": "26e241850c98c822432c9794d9ccde6aee9e0485a65a09cddae3110593085a7a"
+    },
+    "products/north__nuth_kaab/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "7824eda8483bf5865314d1abcf9450391d5caccf13db69087b809e3c6385bab6",
+      "invalid_mask_sha256": "97c4293834551971e8495099c03e7024953cfba3b96eec5a340cf9e82b4f88ed"
+    },
+    "products/north__nuth_kaab/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "e419843c7a34ca905d10b7615985478b45fc561fa975d3e96decf3872f8b8659",
+      "invalid_mask_sha256": "630f4b00e1fb1d54c7a58f617c0c0f845af3bad42d034bba0622154830636c8d"
+    },
+    "products/north__nuth_kaab/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "96eaa946718dec823eecccc4fd4ebd2547d2509068932ed0497f90fc8b074458",
+      "invalid_mask_sha256": "64045f8423092bd220da6ee0e9af4129391e5a32824a198514c1d4f13848fafe"
+    },
+    "products/north__translation/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "8a2dd5ab50dfbb1954a9eb5a2b824a5e3e90ea3cd8441c7837029543ee00894a",
+      "invalid_mask_sha256": "d77ae1b8c0722d1ff506d5d9be9368fc6cd4c202da71cbd5954e42ae9fb643e6"
+    },
+    "products/north__translation/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "1a53794e1e81e0c716f37be795d92ed934ceffe08ac5268223fd72e0c406cd1f",
+      "invalid_mask_sha256": "b8101ee108c95b33423bdaea9ae43e9587a611b524cccabfc959aa82b81c4b98"
+    },
+    "products/north__translation/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "1c2e9165f3ba6b993f3163c20df1c8f54e2b174622cd6cefa46ad57c1a5f6aa5",
+      "invalid_mask_sha256": "6d720bb718cb43d2b767f101e4433f78cefe256ffeaf5cb6fda0b44033318a79"
+    },
+    "products/north__translation/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "c0767f54f74796f020de8a95b686ff32b441708dce608cf0a7322297f8286b9f",
+      "invalid_mask_sha256": "e92304e97e427f8400b2a1bd7dd6289ac25d8749c71723073c6880974d390073"
+    },
+    "products/north__translation/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "2bcd32d80293a7d106a6e8b2de049ded97b4786bcb75231efd06b6ee9c925f08",
+      "invalid_mask_sha256": "395b8b4e4e27583625cfe054b91b421187fd557557c4e827a564a729ea4529c5"
+    },
+    "products/north__translation/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "701dfc157e6d766d7772e5bb1e0ed4db6df2d8c525f24c8c6e6db8de84e35c38",
+      "invalid_mask_sha256": "c8f5858daa2bcc35f40268b66c55e30bccfc98f1bf7aa62142ee86d232c286e5"
+    },
+    "products/north__translation/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "223de3d7e2c07662156860b3908415c74df8819fd7d1246330b1ca31656089bc",
+      "invalid_mask_sha256": "39e2806f9d8fbc8c526cb4f4210a4d984414af8a5d688517adfaa3a1426877c6"
+    },
+    "products/north__vertical/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "367be7be77f5b6a4d8d3bcd22ea83967be5c6369aeb5c8717631aecfd3d2221d",
+      "invalid_mask_sha256": "ce62e3425390a56958489591b18d151f0283a717b0732b9e52ddf8df2452c979"
+    },
+    "products/north__vertical/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "a65f6f3da219ded158157b0415c6e0a3549b872a76e975c11a09490ed00cb0bc",
+      "invalid_mask_sha256": "bbfdc9a1fd210a35cb7409315f002d87a6773f50143bad09b3f0f16b002cd4c2"
+    },
+    "products/north__vertical/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "d7b86df504b434aeec7cfb5feeceff229751a4f48b9ea4dc9264c9c8a39fd5de",
+      "invalid_mask_sha256": "b6711be0120b110108bf69fe6b954c86bc6d3358cb9e310bbeeedb1841a63f1d"
+    },
+    "products/north__vertical/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "6675e0009152e08a330a15e79633b44dbdf87c7d3be6cac15b8a5086c1a2c4b8",
+      "invalid_mask_sha256": "c9c83571b2c2f178de805ddfb7bc7f17a3e485cbcca52beab875056f3f3e5477"
+    },
+    "products/north__vertical/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "f3facc00a90ac0f0b4fb5c60f0d8b80920464503140729af3ad1083f477a367d",
+      "invalid_mask_sha256": "1099b1af38bcf36543b5755213faa5b95a4d8560170a433019988451a4b52571"
+    },
+    "products/north__vertical/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "d5a9335868eba379e32aa7d54b6a18338af3104fe5ce913d98336652f7221a2e",
+      "invalid_mask_sha256": "91acd75220e0a9b315df70ab44809e998d3ba250fc234dd52cb9188535c1adcb"
+    },
+    "products/north__vertical/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "2bd36d958faba28069af4abca2f9bacf7a9370679085b4b0ebf66001f1051a85",
+      "invalid_mask_sha256": "1395c18e4b6792cb55d0f1eb09e47df7b6c2e67fcee6fcb3ef86889652ed5acf"
+    },
+    "products/raw/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "4f9673b8bd18dbb3f5207ec5394726e0eefac1767702a70d91d7d79565d33a0b",
+      "invalid_mask_sha256": "1395c18e4b6792cb55d0f1eb09e47df7b6c2e67fcee6fcb3ef86889652ed5acf"
+    },
+    "products/west__nuth_kaab/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "5530948ff3b0d5f32895da7761e03b4e89448b33a7c60f7aa39be79d5cb5b655",
+      "invalid_mask_sha256": "4aff55f5559acbafe4720404b8c7c4059138a0ab856599c2eff8e1e0a1c2bde8"
+    },
+    "products/west__nuth_kaab/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "82e625036688931f02ca54d14400fc393887dbc82da6af7073b969d882bb3aeb",
+      "invalid_mask_sha256": "d4081661524e9c1aec254e755ff1e7f8be7d1ae222c4a65c6a3d857d31be4dee"
+    },
+    "products/west__nuth_kaab/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "c6dfb51aa6ed621a4b2ebb69e66b653c981806c70cd2e02bb6d22972962308d7",
+      "invalid_mask_sha256": "b5e7aa89d05668df9a06b3be5b5be0f6fb755da36977eda33115934586c30927"
+    },
+    "products/west__nuth_kaab/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "d323258a6df2a9b2cb437e2ae6b5045b9e5bb23a2ec2319b82a723967b8fbcfd",
+      "invalid_mask_sha256": "201ceeb5af2a9d8e67ec0b0a2575fdd2f4ef1dce5feeeae7343ff687bc351211"
+    },
+    "products/west__nuth_kaab/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "4cb19654dc4670b10845f0a492ec2583526e1711ef5312ce6b176d7cce812e31",
+      "invalid_mask_sha256": "9655c77b4132b8f21d43ddbc21316be6a976c934e2a73db2e53f1b357b3a3f00"
+    },
+    "products/west__nuth_kaab/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "f3e61a5ad6e685dc0ff8fa0278a67df70b89493c67f8dae176c02939b7fc3e12",
+      "invalid_mask_sha256": "3bd6e4c3a10491cfc3c15b95e65f1b24e679572dfec0281a659cfae06ebdc276"
+    },
+    "products/west__nuth_kaab/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "551f529a66b9a2724e95825420f5a2b22d75eed356ecd275e2d54d356fa023a4",
+      "invalid_mask_sha256": "630470b7f71bf21206c03512589fc77117e18ab0196ffa63ff881f9ea8d23624"
+    },
+    "products/west__translation/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "dcbf31bdc30dab9dc2e5962026f5bbc3af162cbb925093272f5345e631d90017",
+      "invalid_mask_sha256": "8046daf5a02b303f7bc5dda1f73f59840e4fa5f1ba0aa649f4d17c74d90c79f9"
+    },
+    "products/west__translation/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "cc696239347bed125c065f4b957de9334314ca97400ceaa2616a52326086bbce",
+      "invalid_mask_sha256": "b6a80bf19ad53114a7b3d4decaedd2eca9d3e58d4d7647f5cb26c7c6313cf39d"
+    },
+    "products/west__translation/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "a94c3f506d35e31f4b3e8a27c31caa355b5c6db59bb11d05f437bd3be99018f4",
+      "invalid_mask_sha256": "8038f63874a4964ebf08105402c8d40e604c78f70ee65a3cd7864eb6e9e83623"
+    },
+    "products/west__translation/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "9cf26c8f434b94a5be8be2946d1ef2e7e98e097f9d61fff65d67783594c887a6",
+      "invalid_mask_sha256": "54669c5f7dd2e27e2a687878ce2ee11de1130a8f957093f0fbbf96ceeed5e9d5"
+    },
+    "products/west__translation/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "a8c0c7a3f14309c7c1df801b35a6b9f55f91878f681f6d8876f6efb7dd34195a",
+      "invalid_mask_sha256": "0ff568dd3424a03a594351d52c2240e19dde7ffee73fff51d319f1f2b79ca30c"
+    },
+    "products/west__translation/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "6275f805cdcca88d75ab6ae4f7da9a7c5034a8a3f15a6b5f018dec6e2e3377ef",
+      "invalid_mask_sha256": "91db5a9d97aab9d965403f6953c50042ebefd43ff18eacfa12e4f9a3fd2567c2"
+    },
+    "products/west__translation/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "a77be457e1186ceef03357ed543c9be7d114541b4f90c09b332bc79698304541",
+      "invalid_mask_sha256": "9b382d56647c2c0dbdc8a3b462a4fc194456bc20ec32c90d0a4dabfe7d93ce45"
+    },
+    "products/west__vertical/dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "7844c2da28a52837a77222d8723edf8a12def14208665b6b9728f7443e7c85cf",
+      "invalid_mask_sha256": "ce62e3425390a56958489591b18d151f0283a717b0732b9e52ddf8df2452c979"
+    },
+    "products/west__vertical/dod_00_02_2016-08-15_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "bafcfed565d141844fdddae9505e53576387d3c63ae927ef1fd8264697f40404",
+      "invalid_mask_sha256": "bbfdc9a1fd210a35cb7409315f002d87a6773f50143bad09b3f0f16b002cd4c2"
+    },
+    "products/west__vertical/dod_00_03_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "36947997b7bbae051b0a9da024f82e72c114269a3a7918e6afa46653876e1d15",
+      "invalid_mask_sha256": "b6711be0120b110108bf69fe6b954c86bc6d3358cb9e310bbeeedb1841a63f1d"
+    },
+    "products/west__vertical/dod_01_02_2018-06-08_2024-07-24.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "918e57d0832e7cdd068c5a1bcba8f99b7e6c5b3b665c5677bbaa7d4feebe91b4",
+      "invalid_mask_sha256": "c9c83571b2c2f178de805ddfb7bc7f17a3e485cbcca52beab875056f3f3e5477"
+    },
+    "products/west__vertical/dod_01_03_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "3790351b35b0bc9b100de8b2957cc466af306e77a52675d9abc90bc616c993c9",
+      "invalid_mask_sha256": "1099b1af38bcf36543b5755213faa5b95a4d8560170a433019988451a4b52571"
+    },
+    "products/west__vertical/dod_02_03_2024-07-24_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "0ebb76c9cd57e5701650f495501e3dbfa18f81b2600be69ae5a90b16c8961de0",
+      "invalid_mask_sha256": "91acd75220e0a9b315df70ab44809e998d3ba250fc234dd52cb9188535c1adcb"
+    },
+    "products/west__vertical/epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        4,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "0bb5910ebc191ee4b9768a2daa624b9dcbfc54ff1a2e348052fe20e0d7490b58",
+      "invalid_mask_sha256": "1395c18e4b6792cb55d0f1eb09e47df7b6c2e67fcee6fcb3ef86889652ed5acf"
+    },
+    "W_SLUMP.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "223419d6ca8d7b3db87301b3c23163a7e04367a3c2caf005f6b1a22472297557",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "X_SLUMP_CHANNEL.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "e466b2e88fd96c7e9e90a3ab136d59e43dc7204c0699f6dac39502cac8988702",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    }
+  },
+  "epochs": [
+    {
+      "id": "SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1",
+      "date": "2016-08-15T02:26:38Z"
+    },
+    {
+      "id": "SETSM_s2s041_WV01_20180608_1020010076CE0B00_102001007593D900_2m_lsf_seg1",
+      "date": "2018-06-08T05:35:50Z"
+    },
+    {
+      "id": "SETSM_s2s041_WV02_20240724_103001010148FD00_10300101017A7200_2m_seg1",
+      "date": "2024-07-24T08:04:06Z"
+    },
+    {
+      "id": "SETSM_s2s041_WV03_20240920_104001009ABD8A00_104001009C8E5F00_2m_seg2",
+      "date": "2024-09-20T07:23:21Z"
+    }
+  ],
+  "json_canonical_sha256": {
+    "fixed_optical_objects.geojson": "4c536009bcb558413db82ca9c1aa86b6133fec42cc40ded365cdac8b95f0cadd",
+    "pilot_aoi.geojson": "b54b9bdfe92fac169800f04fd6236a74f05fbf4472b8dfd0432e0f3055d8c066",
+    "frozen_protocol.json": "67826fbd9413958bb58f042cb1a10f83d70da91ffcedeafa2f236191a39af79c",
+    "variants.json": "1f0f90c2745108b93158a90d63cb8fbdcdedd7e02b69e164cbcde32d4e00223f",
+    "products/combined__nuth_kaab/network.json": "852d6f570a4954dd77977f1365968399ebf714f03af24f5b866c1e7c55a99f0c",
+    "products/combined__nuth_kaab/pair_fits.json": "43b4240e269ff67f1f6e7db07809abc283dedcc17d940b169a88f22840f855d2",
+    "products/combined__translation/network.json": "b611984191a0788ad4169fda385d1ea89a8662d5dbf5655a5a1de5d731a298f7",
+    "products/combined__translation/pair_fits.json": "efbe3880b4481a5251e2a012f314ae79f343334327d0bb90b6f61f26e9ce0d26",
+    "products/combined__vertical/network.json": "aec8e1a2aeef5cf20f0570f60e734a4c9b2123da408c801a14615df37f626e6f",
+    "products/combined__vertical/pair_fits.json": "a571a0623f1d3a473fe10d583cb5bc8e7c3a6e27ef5760549b2d67002f916f45",
+    "products/north__nuth_kaab/network.json": "b5058f507783046c50364507231b08cf74d2d22a0227cec3b774bc242da10939",
+    "products/north__nuth_kaab/pair_fits.json": "beecc4f81ac3fdca7a24174cfc1981de573a0edac038ee04d90c39e3b4de5d9a",
+    "products/north__translation/network.json": "4609e88664242ee311521f51ed1f0bed255fedde222aba434aa8ea6078ecd2a0",
+    "products/north__translation/pair_fits.json": "e0b8884aa7815ccc9a8c5cbfdfa2e5a42f1e6710edd6959c2a9ca7d93978ddfd",
+    "products/north__vertical/network.json": "c5a57f03109b2de6ba73d006d8f6597e177188e126ee7bed391921ffeafed4b9",
+    "products/north__vertical/pair_fits.json": "54d8bfeee715680ca589dc5246fc7307ccac6ec97f9a92d40b0284581ac334b5",
+    "products/west__nuth_kaab/network.json": "22872d9713308289fe03622503c4cd96b926152ad2fd51b388643bda14cc2ab9",
+    "products/west__nuth_kaab/pair_fits.json": "04f636b4db30554d705abf447d80bf145f87328fd2ca3a0db3f4ba8b02e986f9",
+    "products/west__translation/network.json": "42a04c771ddb0ba4774a381bf8b87500432c2e92ec31e3f9af0589edc44d902c",
+    "products/west__translation/pair_fits.json": "ce9b9b338149b64c7e79940104ebd19cd95b625faeb474adfa474863c7e93093",
+    "products/west__vertical/network.json": "e8896a23b85c3ad4c470cc7c5874030ddcb5156e58e582179df7cc862baf2f1d",
+    "products/west__vertical/pair_fits.json": "a05100eec8e2e7d3b828bb1565853d3d60e445653393a789c613096041e58ede"
+  },
+  "support_tools_sha256": {
+    "run_batagay_auto_check.py": "57bbfcfbd9b507863c24756256522620e8d441859b73a66ff874faa78d851d91",
+    "run_batagay_optical_comparison.py": "55523693730f04b7ec75b94d668d0898d7fede5bd7d19b6c928b0c7ac1d3258b",
+    "run_batagay_raw_baseline.py": "efa57fffce1c10a408b7afcacb5a1d87a66fae97da66840bd3e694e2abaea0e3",
+    "run_batagay_reference_audit.py": "11e3dfba1f4aeae1198f6a74119dbc9d1fa488ade07f7abf4555b8110db62c38",
+    "run_batagay_four_epoch.py": "050321aba1e0ba28e46598a32b5e208f586eddc1aec7e465ffb8cef56dc092df"
+  }
+}

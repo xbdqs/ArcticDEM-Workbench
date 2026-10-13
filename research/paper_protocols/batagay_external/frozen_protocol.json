@@ -1,0 +1,44 @@
+{
+  "schema": "batagay_external_xdem_v1",
+  "version": "2026.10.03.1",
+  "frozen_before_real_fitting": true,
+  "xdem_version": "0.2.3",
+  "geoutils_version": "0.2.5",
+  "methods": [
+    "vertical",
+    "nuth_kaab"
+  ],
+  "references": [
+    "north",
+    "west",
+    "combined"
+  ],
+  "max_iterations": 30,
+  "offset_threshold_pixels": 0.01,
+  "bin_before_fit": true,
+  "aspect_bins": 72,
+  "seed": 42,
+  "max_horizontal_sampling_component_m": 19.6,
+  "sampling": "Reconstruct the exact accepted v0.10.1 method-specific seeded <=30000-pixel mask, including the discarded preliminary NK draw; pass it as xDEM inlier_mask with subsample=1.0. Retain xDEM internal gradient/bin/filter choices.",
+  "external_to_sampling": "(-shift_x,-shift_y,+shift_z); native xDEM matrix is geolocation translation",
+  "convergence": "Observe unmodified xDEM iteration-step returns via a temporary recording wrapper restored in finally; NK accepted only if finite and final horizontal statistic <0.01 pixels after >=3 iterations. Reaching 30 iterations alone is not success.",
+  "acceptance": "Fit samples >=100 across >=3 64px blocks, finite translation strictly inside horizontal bound, explicit convergence, held-out support >=64 across >=3 blocks. Held-out RMSE is descriptive and is not used to tune/reject fits.",
+  "pair_comparison": "Original WB pair records vs external fits before graph adjustment, evaluated on an identical per-pair intersection across all accepted WB/external corrections.",
+  "network": "Same frozen 4-node, equal-edge-weight least squares; 2016 anchor; only accepted edges. Graph differences retained and reported.",
+  "final_support": "Intersection of original RUN14 comparison support and all four epochs in every successful external network. All 9 frozen WB network solutions recomputed/verified against content fingerprints and evaluated on this exact support.",
+  "resampling": "Common Workbench apply_vector (bilinear, full finite support); xDEM native apply equivalence checked synthetically only. This is an estimator comparison with common downstream processing, not an end-to-end xDEM benchmark.",
+  "external_elevation_validation": false,
+  "ground_truth": null,
+  "automatic_best_method": null,
+  "demcoreg_status": "source_reviewed_not_executed_in_RUN15",
+  "demcoreg_commit": "6a4d437a8becea9005942b1799665929aa3bead0",
+  "demcoreg_reason": "GDAL/pygeotools runtime requires separate validation; not silently substituted with a reimplementation.",
+  "limits": [
+    "Candidate reference windows can change in vegetation/snow; they are not surveyed stable controls.",
+    "Software agreement does not establish true terrain change or absolute accuracy.",
+    "W_SLUMP is a fixed observation window, not the full Batagay boundary.",
+    "Same-day shared images and shared DEM nodes correlate errors; cycle rank does not count statistically independent observations.",
+    "A failed network is excluded transparently, never replaced by another method.",
+    "Existing holdouts are development diagnostics, not a fresh independent final validation set."
+  ]
+}
