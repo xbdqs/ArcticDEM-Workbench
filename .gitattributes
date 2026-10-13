@@ -1,0 +1,5 @@
+# Preserve frozen source bytes on both Windows and Linux checkouts.
+* -text
+*.png binary
+*.pdf binary
+*.zip binary
