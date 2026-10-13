@@ -1,0 +1,30 @@
+{
+  "source_archive_sha256": "bbbae4b99bf51dc81704eb0797946f4b29570ee13a32a68750232241852e7793",
+  "files": [
+    {
+      "path": "data/evidence/acceptance_0110/summary.json",
+      "bytes": 49320,
+      "sha256": "c03502e49a1c9bafaebb46918c659e325d614f4c80f616c4b6a177512ecf00ae"
+    },
+    {
+      "path": "data/evidence/batagay_common_graph/common_graph_summary.json",
+      "bytes": 228322,
+      "sha256": "4b9ce67c5ef37945aeafc02726d4684b351dbb7fc988411a0ecb1678335b3a15"
+    },
+    {
+      "path": "data/evidence/run24/RUN24_audited_results.json",
+      "bytes": 6166,
+      "sha256": "72c9cbdfa49c2f9703ac65a29e137b838fb7f83a857946e09f4f82452d9597c3"
+    },
+    {
+      "path": "data/evidence/run24/method_summary.csv",
+      "bytes": 1350,
+      "sha256": "ddb56560a1c24a47d20e9d0218ca9d42de76e64b4ba9a721746c8f717c61d033"
+    },
+    {
+      "path": "data/evidence/run24/protocol.json",
+      "bytes": 3879,
+      "sha256": "e0a7234fbd2f04e9ca4ceaa402a5750b3ea9e1666ada269ad5af2028930d8b44"
+    }
+  ]
+}

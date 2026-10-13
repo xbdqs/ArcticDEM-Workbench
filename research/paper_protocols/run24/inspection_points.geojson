@@ -1,0 +1,761 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.13233438345017,
+          61.16095585151813
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P11",
+        "tile_id": "BARRY_NE",
+        "row": 96,
+        "column": 96,
+        "native_easting_m": 439069.0,
+        "native_northing_m": 6781243.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12876709576935,
+          61.16098564344009
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P12",
+        "tile_id": "BARRY_NE",
+        "row": 96,
+        "column": 192,
+        "native_easting_m": 439261.0,
+        "native_northing_m": 6781243.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1251998003528,
+          61.1610153413784
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P13",
+        "tile_id": "BARRY_NE",
+        "row": 96,
+        "column": 288,
+        "native_easting_m": 439453.0,
+        "native_northing_m": 6781243.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.13227262273125,
+          61.15923247129092
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P21",
+        "tile_id": "BARRY_NE",
+        "row": 192,
+        "column": 96,
+        "native_easting_m": 439069.0,
+        "native_northing_m": 6781051.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12870552951952,
+          61.15926226110239
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P22",
+        "tile_id": "BARRY_NE",
+        "row": 192,
+        "column": 192,
+        "native_easting_m": 439261.0,
+        "native_northing_m": 6781051.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12513842857345,
+          61.15929195693684
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P23",
+        "tile_id": "BARRY_NE",
+        "row": 192,
+        "column": 288,
+        "native_easting_m": 439453.0,
+        "native_northing_m": 6781051.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.13221086977111,
+          61.15750909058487
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P31",
+        "tile_id": "BARRY_NE",
+        "row": 288,
+        "column": 96,
+        "native_easting_m": 439069.0,
+        "native_northing_m": 6780859.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1286439710041,
+          61.15753887828606
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P32",
+        "tile_id": "BARRY_NE",
+        "row": 288,
+        "column": 192,
+        "native_easting_m": 439261.0,
+        "native_northing_m": 6780859.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12507706450407,
+          61.157568572016906
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_NE:P33",
+        "tile_id": "BARRY_NE",
+        "row": 288,
+        "column": 288,
+        "native_easting_m": 439453.0,
+        "native_northing_m": 6780859.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.13165544204708,
+          61.1419986426798
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P11",
+        "tile_id": "BARRY_SE",
+        "row": 96,
+        "column": 96,
+        "native_easting_m": 439069.0,
+        "native_northing_m": 6779131.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12809029218437,
+          61.1420284113989
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P12",
+        "tile_id": "BARRY_SE",
+        "row": 96,
+        "column": 192,
+        "native_easting_m": 439261.0,
+        "native_northing_m": 6779131.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12452513460104,
+          61.14205808620749
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P13",
+        "tile_id": "BARRY_SE",
+        "row": 96,
+        "column": 288,
+        "native_easting_m": 439453.0,
+        "native_northing_m": 6779131.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.13159376659883,
+          61.140275257184534
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P21",
+        "tile_id": "BARRY_SE",
+        "row": 192,
+        "column": 96,
+        "native_easting_m": 439069.0,
+        "native_northing_m": 6778939.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12802881093694,
+          61.140305023795676
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P22",
+        "tile_id": "BARRY_SE",
+        "row": 192,
+        "column": 192,
+        "native_easting_m": 439261.0,
+        "native_northing_m": 6778939.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12446384755577,
+          61.140334696502926
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P23",
+        "tile_id": "BARRY_SE",
+        "row": 192,
+        "column": 288,
+        "native_easting_m": 439453.0,
+        "native_northing_m": 6778939.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1315320988942,
+          61.138551871210325
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P31",
+        "tile_id": "BARRY_SE",
+        "row": 288,
+        "column": 96,
+        "native_easting_m": 439069.0,
+        "native_northing_m": 6778747.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12796733740873,
+          61.1385816357137
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P32",
+        "tile_id": "BARRY_SE",
+        "row": 288,
+        "column": 192,
+        "native_easting_m": 439261.0,
+        "native_northing_m": 6778747.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.12440256820537,
+          61.13861130631986
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BARRY_SE:P33",
+        "tile_id": "BARRY_SE",
+        "row": 288,
+        "column": 288,
+        "native_easting_m": 439453.0,
+        "native_northing_m": 6778747.0,
+        "native_crs": "EPSG:6335",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7998723039897,
+          67.56397006620101
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P11",
+        "tile_id": "BATAGAY_NW",
+        "row": 96,
+        "column": 96,
+        "native_easting_m": 8595.0,
+        "native_northing_m": 2460705.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7954017752452,
+          67.56396403418536
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P12",
+        "tile_id": "BATAGAY_NW",
+        "row": 96,
+        "column": 192,
+        "native_easting_m": 8787.0,
+        "native_northing_m": 2460705.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.79093124899194,
+          67.56395786891336
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P13",
+        "tile_id": "BATAGAY_NW",
+        "row": 96,
+        "column": 288,
+        "native_easting_m": 8979.0,
+        "native_northing_m": 2460705.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7998566876507,
+          67.56567793129305
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P21",
+        "tile_id": "BATAGAY_NW",
+        "row": 192,
+        "column": 96,
+        "native_easting_m": 8595.0,
+        "native_northing_m": 2460513.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.79538581006838,
+          67.56567189877237
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P22",
+        "tile_id": "BATAGAY_NW",
+        "row": 192,
+        "column": 192,
+        "native_easting_m": 8787.0,
+        "native_northing_m": 2460513.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7909149349778,
+          67.56566573298417
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P23",
+        "tile_id": "BATAGAY_NW",
+        "row": 192,
+        "column": 288,
+        "native_easting_m": 8979.0,
+        "native_northing_m": 2460513.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7998410688744,
+          67.56738580610678
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P31",
+        "tile_id": "BATAGAY_NW",
+        "row": 288,
+        "column": 96,
+        "native_easting_m": 8595.0,
+        "native_northing_m": 2460321.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.79536984239977,
+          67.56737977308097
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P32",
+        "tile_id": "BATAGAY_NW",
+        "row": 288,
+        "column": 192,
+        "native_easting_m": 8787.0,
+        "native_northing_m": 2460321.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.79089861841746,
+          67.56737360677651
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_NW:P33",
+        "tile_id": "BATAGAY_NW",
+        "row": 288,
+        "column": 288,
+        "native_easting_m": 8979.0,
+        "native_northing_m": 2460321.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.75787038428692,
+          67.58895817170168
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P11",
+        "tile_id": "BATAGAY_SE",
+        "row": 96,
+        "column": 96,
+        "native_easting_m": 10387.0,
+        "native_northing_m": 2457889.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.75339475924702,
+          67.58895088702137
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P12",
+        "tile_id": "BATAGAY_SE",
+        "row": 96,
+        "column": 192,
+        "native_easting_m": 10579.0,
+        "native_northing_m": 2457889.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.74891913721657,
+          67.58894346892214
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P13",
+        "tile_id": "BATAGAY_SE",
+        "row": 96,
+        "column": 288,
+        "native_easting_m": 10771.0,
+        "native_northing_m": 2457889.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.75785146888254,
+          67.59066617415384
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P21",
+        "tile_id": "BATAGAY_SE",
+        "row": 192,
+        "column": 96,
+        "native_easting_m": 10387.0,
+        "native_northing_m": 2457697.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7533754942109,
+          67.590658888863
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P22",
+        "tile_id": "BATAGAY_SE",
+        "row": 192,
+        "column": 192,
+        "native_easting_m": 10579.0,
+        "native_northing_m": 2457697.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7488995225495,
+          67.59065147014208
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P23",
+        "tile_id": "BATAGAY_SE",
+        "row": 192,
+        "column": 288,
+        "native_easting_m": 10771.0,
+        "native_northing_m": 2457697.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7578325505225,
+          67.59237418631727
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P31",
+        "tile_id": "BATAGAY_SE",
+        "row": 288,
+        "column": 96,
+        "native_easting_m": 10387.0,
+        "native_northing_m": 2457505.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.75335622616458,
+          67.59236690041584
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P32",
+        "tile_id": "BATAGAY_SE",
+        "row": 288,
+        "column": 192,
+        "native_easting_m": 10579.0,
+        "native_northing_m": 2457505.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.74887990481758,
+          67.59235948107312
+        ]
+      },
+      "properties": {
+        "point_id": "RUN24:BATAGAY_SE:P33",
+        "tile_id": "BATAGAY_SE",
+        "row": 288,
+        "column": 288,
+        "native_easting_m": 10771.0,
+        "native_northing_m": 2457505.0,
+        "native_crs": "EPSG:3413",
+        "role": "Fixed numerical inspection location, not a surveyed control point",
+        "geographic_coordinates": "Approximate display only; native coordinates and row/column are authoritative"
+      }
+    }
+  ]
+}

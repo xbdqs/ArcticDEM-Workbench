@@ -2,7 +2,7 @@
   "schema": "arcticdem-public-source-v1",
   "software_version": "0.11.1",
   "packaging_revision": "2026-10-11",
-  "created_utc": "2026-10-13T18:41:40.989670+00:00",
+  "created_utc": "2026-10-13T23:41:11.492595+00:00",
   "excluded": [
     "*.egg-info",
     "*.pyc",
@@ -24,8 +24,8 @@
     },
     {
       "path": ".github/workflows/tests.yml",
-      "bytes": 1413,
-      "sha256": "70f64ab5a0265b1b965a95ba1d8106c0cf2ae8ad431949f8a12ab9776e2ea8e6"
+      "bytes": 1415,
+      "sha256": "a466866c245e5efea03347d5ca1756c435ad0e89551a79eb3e873d2b472add19"
     },
     {
       "path": ".gitignore",

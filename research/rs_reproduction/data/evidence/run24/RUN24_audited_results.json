@@ -1,0 +1,190 @@
+{
+  "review_date": "2026-10-10",
+  "source_archive": "UPLOAD_TO_CHATGPT_TERRAIN_TRANSFER_20261010_145256_402933_0cc6ac.zip",
+  "source_archive_sha256": "27368309f9cf4cd70ccbb33e50592bc240cc91a8bfb5ad8ccd7de8ca7bfa6038",
+  "completed_prior_archive_audit": {
+    "members": 232,
+    "inventoried_files": 231,
+    "duplicate_names": false,
+    "crc_passed": true,
+    "all_listed_sizes_and_sha256_matched": true
+  },
+  "record_audit": {
+    "method_records": 180,
+    "tile_scenario_groups": 36,
+    "same_fit_and_common_holdout_per_group": true,
+    "fixed_point_records": 1620,
+    "fixed_points": 36,
+    "fixed_point_native_coordinates_unchanged": true,
+    "source_hashes_match_protocol": true,
+    "environment_versions_unchanged": true
+  },
+  "method_aggregate": [
+    {
+      "method": "translation",
+      "conditions": 36,
+      "accepted": 36,
+      "rejected": 0,
+      "recovery_passed": 30,
+      "accepted_but_recovery_failed": 6,
+      "max_parameter_component_error_among_accepted_m": 5.5284511930238125
+    },
+    {
+      "method": "nuth_kaab",
+      "conditions": 36,
+      "accepted": 25,
+      "rejected": 11,
+      "recovery_passed": 21,
+      "accepted_but_recovery_failed": 4,
+      "max_parameter_component_error_among_accepted_m": 0.6955531122250838
+    },
+    {
+      "method": "joint_gradient_candidate",
+      "conditions": 36,
+      "accepted": 36,
+      "rejected": 0,
+      "recovery_passed": 36,
+      "accepted_but_recovery_failed": 0,
+      "max_parameter_component_error_among_accepted_m": 0.08691151748755344
+    }
+  ],
+  "candidate_change_checks": [
+    {
+      "tile_id": "BARRY_NE",
+      "scenario": "loss_forward",
+      "change_median_m": "-5.014862060546875",
+      "change_median_error_m": "-0.014862060546875"
+    },
+    {
+      "tile_id": "BARRY_NE",
+      "scenario": "gain_reverse",
+      "change_median_m": "2.9840545654296875",
+      "change_median_error_m": "-0.0159454345703125"
+    },
+    {
+      "tile_id": "BARRY_SE",
+      "scenario": "loss_forward",
+      "change_median_m": "-5.027439594268799",
+      "change_median_error_m": "-0.027439594268798828"
+    },
+    {
+      "tile_id": "BARRY_SE",
+      "scenario": "gain_reverse",
+      "change_median_m": "2.9901537895202637",
+      "change_median_error_m": "-0.009846210479736328"
+    },
+    {
+      "tile_id": "BATAGAY_NW",
+      "scenario": "loss_forward",
+      "change_median_m": "-5.0018157958984375",
+      "change_median_error_m": "-0.0018157958984375"
+    },
+    {
+      "tile_id": "BATAGAY_NW",
+      "scenario": "gain_reverse",
+      "change_median_m": "2.998779296875",
+      "change_median_error_m": "-0.001220703125"
+    },
+    {
+      "tile_id": "BATAGAY_SE",
+      "scenario": "loss_forward",
+      "change_median_m": "-5.0019989013671875",
+      "change_median_error_m": "-0.0019989013671875"
+    },
+    {
+      "tile_id": "BATAGAY_SE",
+      "scenario": "gain_reverse",
+      "change_median_m": "2.99884033203125",
+      "change_median_error_m": "-0.00115966796875"
+    }
+  ],
+  "candidate_max_abs_change_median_error_m": 0.027439594268798828,
+  "accepted_recovery_failures": [
+    {
+      "tile_id": "BATAGAY_NW",
+      "scenario": "fractional_forward",
+      "method": "nuth_kaab",
+      "max_parameter_error_m": "0.6955531122250838",
+      "holdout_nmad_m": "0.013890325927734374",
+      "holdout_rmse_m": "0.01574672513217776"
+    },
+    {
+      "tile_id": "BATAGAY_NW",
+      "scenario": "noise_forward",
+      "method": "translation",
+      "max_parameter_error_m": "2.115186729960988",
+      "holdout_nmad_m": "0.09533197631835937",
+      "holdout_rmse_m": "0.46168912969213377"
+    },
+    {
+      "tile_id": "BATAGAY_NW",
+      "scenario": "noise_reverse",
+      "method": "translation",
+      "max_parameter_error_m": "5.5284511930238125",
+      "holdout_nmad_m": "0.15120999755859374",
+      "holdout_rmse_m": "0.4576953168963384"
+    },
+    {
+      "tile_id": "BATAGAY_NW",
+      "scenario": "loss_forward",
+      "method": "translation",
+      "max_parameter_error_m": "2.234789955488714",
+      "holdout_nmad_m": "0.07533352661132812",
+      "holdout_rmse_m": "0.4475926892346378"
+    },
+    {
+      "tile_id": "BATAGAY_NW",
+      "scenario": "gain_reverse",
+      "method": "translation",
+      "max_parameter_error_m": "5.087275327502912",
+      "holdout_nmad_m": "0.131392529296875",
+      "holdout_rmse_m": "0.469319074240794"
+    },
+    {
+      "tile_id": "BATAGAY_SE",
+      "scenario": "integer_reverse",
+      "method": "nuth_kaab",
+      "max_parameter_error_m": "0.512771462738081",
+      "holdout_nmad_m": "0.056828173828124995",
+      "holdout_rmse_m": "0.06651037574079112"
+    },
+    {
+      "tile_id": "BATAGAY_SE",
+      "scenario": "fractional_forward",
+      "method": "nuth_kaab",
+      "max_parameter_error_m": "0.36969552352185797",
+      "holdout_nmad_m": "0.04610502319335937",
+      "holdout_rmse_m": "0.05628636179657332"
+    },
+    {
+      "tile_id": "BATAGAY_SE",
+      "scenario": "fractional_reverse",
+      "method": "nuth_kaab",
+      "max_parameter_error_m": "0.47520954084568645",
+      "holdout_nmad_m": "0.05542556762695312",
+      "holdout_rmse_m": "0.06560857052550821"
+    },
+    {
+      "tile_id": "BATAGAY_SE",
+      "scenario": "noise_reverse",
+      "method": "translation",
+      "max_parameter_error_m": "0.7412915123705832",
+      "holdout_nmad_m": "0.13051024475097656",
+      "holdout_rmse_m": "0.5057980865573886"
+    },
+    {
+      "tile_id": "BATAGAY_SE",
+      "scenario": "loss_forward",
+      "method": "translation",
+      "max_parameter_error_m": "0.6476699499219276",
+      "holdout_nmad_m": "0.11512682189941406",
+      "holdout_rmse_m": "0.6227264604172685"
+    }
+  ],
+  "external_elevation_validation": false,
+  "real_epoch_registration_performed": false,
+  "production_default_changed": false,
+  "candidate_integrated_into_gui": false,
+  "scope": "Four selected terrain windows, one seed per condition; prescribed engineering checks, not statistical ranking or real ArcticDEM accuracy.",
+  "closure_decision": "Freeze RUN24; no further general-purpose controlled transfer rounds. Complete bounded software integration, one real main-case evidence table and manuscript."
+}

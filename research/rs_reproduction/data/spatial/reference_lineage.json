@@ -1,0 +1,231 @@
+{
+  "frozen_utc": "2026-10-09T20:31:03.997642+00:00",
+  "selection_rule": "Fixed grid windows chosen before any candidate fits on these windows; terrain validity and slope inspected only. No selection on residuals.",
+  "barry_development_window": {
+    "row": 256,
+    "col": 256,
+    "height": 768,
+    "width": 768
+  },
+  "batagay_source_upload_sha256": "77f296f0dd76567b276157374ea5561d378c31faf8294fe3e4b5faf62741b776",
+  "tiles": [
+    {
+      "tile_id": "BARRY_NE",
+      "reference_file": "references/BARRY_NE.tif",
+      "reference_sha256": "72b5329c94d5cfe3bb00412f50e0c2ab5ff8ca3f524d383068b3743a93f76cb0",
+      "source_file_name": "lidar_NAD83_2011_ellipsoidal_2m.tif",
+      "source_sha256": "a9fd5dce0cda62c4628775f9d6696c9bc3fbc322bdba75d702007434bd51969f",
+      "source_grid": {
+        "shape": [
+          1500,
+          1500
+        ],
+        "transform": [
+          2.0,
+          0.0,
+          436700.0,
+          0.0,
+          -2.0,
+          6781500.0
+        ],
+        "crs": "EPSG:6335"
+      },
+      "source_window": {
+        "row": 32,
+        "col": 1088,
+        "height": 384,
+        "width": 384
+      },
+      "crs": "EPSG:6335",
+      "transform": [
+        2.0,
+        0.0,
+        438876.0,
+        0.0,
+        -2.0,
+        6781436.0
+      ],
+      "valid_fraction": 1.0,
+      "slope_median_deg": 27.507685596042684,
+      "slope_p90_deg": 48.78485847965366,
+      "region": "Barry Arm",
+      "source_kind": "RUN21 converted LiDAR",
+      "quality_rule": "Inherited LiDAR nodata; no stability certification",
+      "independent_of_candidate_development": true,
+      "independence_scope": "Disjoint spatial window in same source LiDAR; not independent acquisition",
+      "source_epoch_record": null
+    },
+    {
+      "tile_id": "BARRY_SE",
+      "reference_file": "references/BARRY_SE.tif",
+      "reference_sha256": "59fb043d2b1e5d57255b59f9b2af83d597aff6590e0e9e8df0126772cf04936b",
+      "source_file_name": "lidar_NAD83_2011_ellipsoidal_2m.tif",
+      "source_sha256": "a9fd5dce0cda62c4628775f9d6696c9bc3fbc322bdba75d702007434bd51969f",
+      "source_grid": {
+        "shape": [
+          1500,
+          1500
+        ],
+        "transform": [
+          2.0,
+          0.0,
+          436700.0,
+          0.0,
+          -2.0,
+          6781500.0
+        ],
+        "crs": "EPSG:6335"
+      },
+      "source_window": {
+        "row": 1088,
+        "col": 1088,
+        "height": 384,
+        "width": 384
+      },
+      "crs": "EPSG:6335",
+      "transform": [
+        2.0,
+        0.0,
+        438876.0,
+        0.0,
+        -2.0,
+        6779324.0
+      ],
+      "valid_fraction": 1.0,
+      "slope_median_deg": 0.00832674852100025,
+      "slope_p90_deg": 55.95617744273059,
+      "region": "Barry Arm",
+      "source_kind": "RUN21 converted LiDAR",
+      "quality_rule": "Inherited LiDAR nodata; no stability certification",
+      "independent_of_candidate_development": true,
+      "independence_scope": "Disjoint spatial window in same source LiDAR; not independent acquisition",
+      "source_epoch_record": null
+    },
+    {
+      "tile_id": "BATAGAY_NW",
+      "reference_file": "references/BATAGAY_NW.tif",
+      "reference_sha256": "7d07ba195539e8b30ae291cf98aaeb858a4b799116adc1076eb94c2ec9667618",
+      "source_file_name": "dem.tif",
+      "source_sha256": "084324d86e6e49bf09f877c441462c3f1d22b3dfc2edf54a746f4c3a6dab22cb",
+      "source_grid": {
+        "shape": [
+          2256,
+          1726
+        ],
+        "transform": [
+          2.0,
+          0.0,
+          8146.0,
+          0.0,
+          -2.0,
+          2461154.0
+        ],
+        "crs": "EPSG:3413"
+      },
+      "source_window": {
+        "row": 128,
+        "col": 128,
+        "height": 384,
+        "width": 384
+      },
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8402.0,
+        0.0,
+        -2.0,
+        2460898.0
+      ],
+      "valid_fraction": 1.0,
+      "slope_median_deg": 1.8210812818601505,
+      "slope_p90_deg": 3.0535893042646634,
+      "region": "Batagay",
+      "source_kind": "2016-08-15 quality-screened ArcticDEM strip",
+      "quality_rule": "DEM finite, bitmask==0 and matchtag>0 before injection",
+      "independent_of_candidate_development": true,
+      "independence_scope": "Different region and source; numerical geometry only, not elevation accuracy validation",
+      "source_epoch_record": {
+        "id": "SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1",
+        "date": "2016-08-15T02:26:38Z",
+        "end_date": "2016-08-15T02:28:18Z",
+        "image_ids": [
+          "103001005A33D400",
+          "103001005A462500"
+        ],
+        "dem": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\dem.tif",
+        "mask": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\bitmask.tif",
+        "matchtag": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\matchtag.tif",
+        "vertical_datum": "WGS84 ellipsoidal height (PGC native)",
+        "units": "m",
+        "source_item": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\source_item.json",
+        "dem_sha256": "084324d86e6e49bf09f877c441462c3f1d22b3dfc2edf54a746f4c3a6dab22cb",
+        "mask_sha256": "0657dd56364cb69665e4ba43a749a953549aba90b521b35bd2b2f7007aa19f00",
+        "matchtag_sha256": "5e8ed894920d17e469c355d45a67087b094074868fa08c366e05830d8c3e7def"
+      }
+    },
+    {
+      "tile_id": "BATAGAY_SE",
+      "reference_file": "references/BATAGAY_SE.tif",
+      "reference_sha256": "3cbe09b7f0101ad5649ae76e25a831c008d7801a38924d7316c2ece540547e6c",
+      "source_file_name": "dem.tif",
+      "source_sha256": "084324d86e6e49bf09f877c441462c3f1d22b3dfc2edf54a746f4c3a6dab22cb",
+      "source_grid": {
+        "shape": [
+          2256,
+          1726
+        ],
+        "transform": [
+          2.0,
+          0.0,
+          8146.0,
+          0.0,
+          -2.0,
+          2461154.0
+        ],
+        "crs": "EPSG:3413"
+      },
+      "source_window": {
+        "row": 1536,
+        "col": 1024,
+        "height": 384,
+        "width": 384
+      },
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        10194.0,
+        0.0,
+        -2.0,
+        2458082.0
+      ],
+      "valid_fraction": 0.9999186197916666,
+      "slope_median_deg": 10.575072244208647,
+      "slope_p90_deg": 19.04301179367767,
+      "region": "Batagay",
+      "source_kind": "2016-08-15 quality-screened ArcticDEM strip",
+      "quality_rule": "DEM finite, bitmask==0 and matchtag>0 before injection",
+      "independent_of_candidate_development": true,
+      "independence_scope": "Different region and source; numerical geometry only, not elevation accuracy validation",
+      "source_epoch_record": {
+        "id": "SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1",
+        "date": "2016-08-15T02:26:38Z",
+        "end_date": "2016-08-15T02:28:18Z",
+        "image_ids": [
+          "103001005A33D400",
+          "103001005A462500"
+        ],
+        "dem": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\dem.tif",
+        "mask": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\bitmask.tif",
+        "matchtag": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\matchtag.tif",
+        "vertical_datum": "WGS84 ellipsoidal height (PGC native)",
+        "units": "m",
+        "source_item": "C:\\DoDArcticDEM\\new929\\Batagay_Coverage_NextStep_20261001\\inputs\\SETSM_s2s041_WV02_20160815_103001005A33D400_103001005A462500_2m_lsf_seg1\\source_item.json",
+        "dem_sha256": "084324d86e6e49bf09f877c441462c3f1d22b3dfc2edf54a746f4c3a6dab22cb",
+        "mask_sha256": "0657dd56364cb69665e4ba43a749a953549aba90b521b35bd2b2f7007aa19f00",
+        "matchtag_sha256": "5e8ed894920d17e469c355d45a67087b094074868fa08c366e05830d8c3e7def"
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "version": "2026.10.09.1",
+  "stage": "frozen_candidate_terrain_transfer",
+  "frozen_before_new_fits_utc": "2026-10-09T20:31:04.025915+00:00",
+  "candidate_sha256": "0ca918973285db1772da9d17a143238652edbf48af61e5e31f57a7b8e1064f9e",
+  "frozen_coreg_sha256": "f494b6ec40e8cbca497716cfebcbfefaeda360013a6e1eafd64a65fee88bc2c5",
+  "fit_sample_limit": 12000,
+  "fit_sample_seed": 20261009,
+  "block_pixels": 64,
+  "holdout_guard_pixels": 8,
+  "change_buffer_pixels": 14,
+  "max_horizontal_sampling_component_m": 12.0,
+  "resolution_m": 2,
+  "scenario_seed_base": 240100,
+  "tile_seed_stride": 100,
+  "scenarios": [
+    {
+      "id": "identity",
+      "sampling_xyz_m": [
+        0,
+        0,
+        0
+      ],
+      "noise_sigma_m": 0,
+      "outlier_fraction": 0,
+      "change_m": 0,
+      "flat": false
+    },
+    {
+      "id": "vertical_positive",
+      "sampling_xyz_m": [
+        0,
+        0,
+        3
+      ],
+      "noise_sigma_m": 0,
+      "outlier_fraction": 0,
+      "change_m": 0,
+      "flat": false
+    },
+    {
+      "id": "integer_reverse",
+      "sampling_xyz_m": [
+        -4,
+        2,
+        2.5
+      ],
+      "noise_sigma_m": 0,
+      "outlier_fraction": 0,
+      "change_m": 0,
+      "flat": false
+    },
+    {
+      "id": "fractional_forward",
+      "sampling_xyz_m": [
+        3.4,
+        -2.6,
+        -2.5
+      ],
+      "noise_sigma_m": 0,
+      "outlier_fraction": 0,
+      "change_m": 0,
+      "flat": false
+    },
+    {
+      "id": "fractional_reverse",
+      "sampling_xyz_m": [
+        -4.4,
+        3.2,
+        1.8
+      ],
+      "noise_sigma_m": 0,
+      "outlier_fraction": 0,
+      "change_m": 0,
+      "flat": false
+    },
+    {
+      "id": "noise_forward",
+      "sampling_xyz_m": [
+        3.4,
+        -2.6,
+        -2.5
+      ],
+      "noise_sigma_m": 0.15,
+      "outlier_fraction": 0.005,
+      "change_m": 0,
+      "flat": false
+    },
+    {
+      "id": "noise_reverse",
+      "sampling_xyz_m": [
+        -4.4,
+        3.2,
+        1.8
+      ],
+      "noise_sigma_m": 0.15,
+      "outlier_fraction": 0.005,
+      "change_m": 0,
+      "flat": false
+    },
+    {
+      "id": "loss_forward",
+      "sampling_xyz_m": [
+        3.4,
+        -2.6,
+        -2.5
+      ],
+      "noise_sigma_m": 0.1,
+      "outlier_fraction": 0.005,
+      "change_m": -5,
+      "flat": false
+    },
+    {
+      "id": "gain_reverse",
+      "sampling_xyz_m": [
+        -4.4,
+        3.2,
+        1.8
+      ],
+      "noise_sigma_m": 0.1,
+      "outlier_fraction": 0.005,
+      "change_m": 3,
+      "flat": false
+    }
+  ],
+  "synthetic_accuracy_checks": {
+    "identity_max_parameter_error_m": 0.05,
+    "vertical_positive_max_parameter_error_m": 0.05,
+    "integer_reverse_max_parameter_error_m": 0.05,
+    "fractional_forward_max_parameter_error_m": 0.3,
+    "fractional_reverse_max_parameter_error_m": 0.3,
+    "noise_forward_max_parameter_error_m": 0.5,
+    "noise_reverse_max_parameter_error_m": 0.5,
+    "loss_forward_max_parameter_error_m": 0.5,
+    "gain_reverse_max_parameter_error_m": 0.5
+  },
+  "change_median_error_limit_m": 0.3,
+  "methods": [
+    "none",
+    "vertical",
+    "translation",
+    "nuth_kaab",
+    "joint_gradient_candidate"
+  ],
+  "sampling_convention": "aligned[r,c]=moving[r-north_m/2,c+east_m/2]+dz_m",
+  "comparison_rule": "Same preselected fit cells; final common holdout includes baseline, oracle and every successful fit. No tuning or production selection on these results.",
+  "replicates_per_tile_scenario": 1,
+  "parameter_checks_are_engineering_tolerances": true,
+  "scope": "Controlled transfer test of frozen RUN23 candidate, not real epoch alignment, independent external elevation validation, or a statistically powered method ranking.",
+  "plotting": "One common residual range -6 to +6 m for all change panels; point locations fixed geometrically before methods run.",
+  "production_default_changed": false
+}
