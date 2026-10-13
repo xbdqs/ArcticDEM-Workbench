@@ -1,0 +1,454 @@
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools>=77
+* Getting build dependencies for sdist...
+running egg_info
+creating arcticdem_workbench.egg-info
+writing arcticdem_workbench.egg-info/PKG-INFO
+writing dependency_links to arcticdem_workbench.egg-info/dependency_links.txt
+writing entry points to arcticdem_workbench.egg-info/entry_points.txt
+writing requirements to arcticdem_workbench.egg-info/requires.txt
+writing top-level names to arcticdem_workbench.egg-info/top_level.txt
+writing manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+reading manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'work'
+no previously-included directories found matching 'build'
+no previously-included directories found matching 'dist'
+no previously-included directories found matching 'validation'
+no previously-included directories found matching '.venv'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+* Installed build dependency versions:
+  - setuptools==84.0.0
+* Building sdist...
+running sdist
+running egg_info
+writing arcticdem_workbench.egg-info/PKG-INFO
+writing dependency_links to arcticdem_workbench.egg-info/dependency_links.txt
+writing entry points to arcticdem_workbench.egg-info/entry_points.txt
+writing requirements to arcticdem_workbench.egg-info/requires.txt
+writing top-level names to arcticdem_workbench.egg-info/top_level.txt
+reading manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'work'
+no previously-included directories found matching 'build'
+no previously-included directories found matching 'dist'
+no previously-included directories found matching 'validation'
+no previously-included directories found matching '.venv'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+running check
+creating arcticdem_workbench-0.11.1
+creating arcticdem_workbench-0.11.1/.github/workflows
+creating arcticdem_workbench-0.11.1/arcticdem_workbench
+creating arcticdem_workbench-0.11.1/arcticdem_workbench.egg-info
+creating arcticdem_workbench-0.11.1/arcticdem_workbench/assets
+creating arcticdem_workbench-0.11.1/arcticdem_workbench/assets/pilots
+creating arcticdem_workbench-0.11.1/docs
+creating arcticdem_workbench-0.11.1/docs/history
+creating arcticdem_workbench-0.11.1/examples
+creating arcticdem_workbench-0.11.1/research
+creating arcticdem_workbench-0.11.1/research/batagay_external
+creating arcticdem_workbench-0.11.1/research/batagay_external/batagay_external_assets
+creating arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+creating arcticdem_workbench-0.11.1/research/paper_protocols/batagay_external
+creating arcticdem_workbench-0.11.1/research/paper_protocols/batagay_four_epoch
+creating arcticdem_workbench-0.11.1/research/paper_protocols/run24
+creating arcticdem_workbench-0.11.1/research/rs_reproduction
+creating arcticdem_workbench-0.11.1/research/rs_reproduction/data/evidence/acceptance_0110
+creating arcticdem_workbench-0.11.1/research/rs_reproduction/data/evidence/batagay_common_graph
+creating arcticdem_workbench-0.11.1/research/rs_reproduction/data/evidence/run24
+creating arcticdem_workbench-0.11.1/research/rs_reproduction/data/spatial
+creating arcticdem_workbench-0.11.1/research/rs_reproduction/scripts
+creating arcticdem_workbench-0.11.1/research/softwarex_figure
+creating arcticdem_workbench-0.11.1/tests
+creating arcticdem_workbench-0.11.1/tools
+copying files to arcticdem_workbench-0.11.1...
+copying .gitattributes -> arcticdem_workbench-0.11.1
+copying .gitignore -> arcticdem_workbench-0.11.1
+copying CHANGELOG.md -> arcticdem_workbench-0.11.1
+copying CITATION.cff -> arcticdem_workbench-0.11.1
+copying CONTRIBUTING.md -> arcticdem_workbench-0.11.1
+copying LICENSE -> arcticdem_workbench-0.11.1
+copying MANIFEST.in -> arcticdem_workbench-0.11.1
+copying PUBLIC_SOURCE_MANIFEST.json -> arcticdem_workbench-0.11.1
+copying README.md -> arcticdem_workbench-0.11.1
+copying README_CN.md -> arcticdem_workbench-0.11.1
+copying RUN_02_START_GUI.bat -> arcticdem_workbench-0.11.1
+copying RUN_PAPER_RELEASE.bat -> arcticdem_workbench-0.11.1
+copying RUN_PUBLIC_ACCEPTANCE.bat -> arcticdem_workbench-0.11.1
+copying RUN_RESUME_GUI.bat -> arcticdem_workbench-0.11.1
+copying RUN_RS_REPLOT.bat -> arcticdem_workbench-0.11.1
+copying START_HERE.txt -> arcticdem_workbench-0.11.1
+copying VERSION.txt -> arcticdem_workbench-0.11.1
+copying environment.yml -> arcticdem_workbench-0.11.1
+copying pyproject.toml -> arcticdem_workbench-0.11.1
+copying requirements-dev.txt -> arcticdem_workbench-0.11.1
+copying requirements-lock.txt -> arcticdem_workbench-0.11.1
+copying requirements.txt -> arcticdem_workbench-0.11.1
+copying .github/workflows/tests.yml -> arcticdem_workbench-0.11.1/.github/workflows
+copying arcticdem_workbench/__init__.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/__main__.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/_joint_gradient_frozen.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/cases.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/cases_ui.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/catalog.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/cli.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/common.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/coreg.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/coverage.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/coverage_recovery.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/coverage_render.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/coverage_ui.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/demo.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/diagnostics.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/error_structure.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/gui.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/http_range.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/network.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/pilots.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/pipeline.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/plots.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/project.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/project_ui.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/raster.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/registration_methods.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/reporting.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/scientific_qc.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/spatial.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/support.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/validation_suite.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench/windows_runtime.py -> arcticdem_workbench-0.11.1/arcticdem_workbench
+copying arcticdem_workbench.egg-info/PKG-INFO -> arcticdem_workbench-0.11.1/arcticdem_workbench.egg-info
+copying arcticdem_workbench.egg-info/SOURCES.txt -> arcticdem_workbench-0.11.1/arcticdem_workbench.egg-info
+copying arcticdem_workbench.egg-info/dependency_links.txt -> arcticdem_workbench-0.11.1/arcticdem_workbench.egg-info
+copying arcticdem_workbench.egg-info/entry_points.txt -> arcticdem_workbench-0.11.1/arcticdem_workbench.egg-info
+copying arcticdem_workbench.egg-info/requires.txt -> arcticdem_workbench-0.11.1/arcticdem_workbench.egg-info
+copying arcticdem_workbench.egg-info/top_level.txt -> arcticdem_workbench-0.11.1/arcticdem_workbench.egg-info
+copying arcticdem_workbench/assets/ne_110m_coastline.geojson -> arcticdem_workbench-0.11.1/arcticdem_workbench/assets
+copying arcticdem_workbench/assets/published_cases.json -> arcticdem_workbench-0.11.1/arcticdem_workbench/assets
+copying arcticdem_workbench/assets/pilots/batagay_coverage_reference.json -> arcticdem_workbench-0.11.1/arcticdem_workbench/assets/pilots
+copying arcticdem_workbench/assets/pilots/batagay_query.csv -> arcticdem_workbench-0.11.1/arcticdem_workbench/assets/pilots
+copying arcticdem_workbench/assets/pilots/batagay_query.json -> arcticdem_workbench-0.11.1/arcticdem_workbench/assets/pilots
+copying arcticdem_workbench/assets/pilots/batagay_selection.json -> arcticdem_workbench-0.11.1/arcticdem_workbench/assets/pilots
+copying docs/BATAGAY_PILOT_RESULTS_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/BENCHMARK_PROTOCOL.md -> arcticdem_workbench-0.11.1/docs
+copying docs/COMMON_SUPPORT_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/ERROR_STRUCTURE_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/GITHUB_PUBLISH_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/METHODS_AND_CLOSURE.md -> arcticdem_workbench-0.11.1/docs
+copying docs/NEXT_STUDY_PROTOCOL_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/PAPER_GUIDANCE_DECISIONS_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/PAPER_METHODS_UPDATE_0110.md -> arcticdem_workbench-0.11.1/docs
+copying docs/PRE_REGISTRATION_COVERAGE_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/PROJECTS_AND_REPORTS_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/PUBLICATION_SCOPE.md -> arcticdem_workbench-0.11.1/docs
+copying docs/PUBLISHED_CASES_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/README_0101_HISTORY_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/SCIENTIFIC_SCOPE.md -> arcticdem_workbench-0.11.1/docs
+copying docs/SCIENTIFIC_VALIDATION_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/SOURCE_PROVENANCE.json -> arcticdem_workbench-0.11.1/docs
+copying docs/TESTING.md -> arcticdem_workbench-0.11.1/docs
+copying docs/THIRD_PARTY_DATA.md -> arcticdem_workbench-0.11.1/docs
+copying docs/USER_GUIDE.md -> arcticdem_workbench-0.11.1/docs
+copying docs/V0100_VALIDATION_RESULTS_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/V0101_VALIDATION_RESULTS_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/V0101_WINDOWS_ACCEPTANCE_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/V0110_CLOSEOUT_SCOPE_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/V0110_VALIDATION_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/V0111_STARTUP_RECOVERY_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/V080_VALIDATION_RESULTS_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/V090_VALIDATION_RESULTS_CN.md -> arcticdem_workbench-0.11.1/docs
+copying docs/history/README_CN_original_v0111.md -> arcticdem_workbench-0.11.1/docs/history
+copying docs/history/RELEASE_MANIFEST_v0111_original.json -> arcticdem_workbench-0.11.1/docs/history
+copying examples/README.md -> arcticdem_workbench-0.11.1/examples
+copying research/README.md -> arcticdem_workbench-0.11.1/research
+copying research/batagay_external/batagay_external_report.py -> arcticdem_workbench-0.11.1/research/batagay_external
+copying research/batagay_external/batagay_external_runtime.py -> arcticdem_workbench-0.11.1/research/batagay_external
+copying research/batagay_external/batagay_external_worker.py -> arcticdem_workbench-0.11.1/research/batagay_external
+copying research/batagay_external/batagay_xdem_adapter.py -> arcticdem_workbench-0.11.1/research/batagay_external
+copying research/batagay_external/run_batagay_external.py -> arcticdem_workbench-0.11.1/research/batagay_external
+copying research/batagay_external/batagay_external_assets/accepted_run14_reference.json -> arcticdem_workbench-0.11.1/research/batagay_external/batagay_external_assets
+copying research/batagay_external/batagay_external_assets/external_source_reference.json -> arcticdem_workbench-0.11.1/research/batagay_external/batagay_external_assets
+copying research/batagay_external/batagay_external_assets/protocol.json -> arcticdem_workbench-0.11.1/research/batagay_external/batagay_external_assets
+copying research/paper_protocols/batagay_common_graph/common_graph_summary.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/decomposition_checks.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/epochs.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/fixed_optical_objects.geojson -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/fixed_point_series.csv -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/fixed_target_window.geojson -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/frozen_protocol.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/graph_comparability.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/identical_support_statistics.csv -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/paired_dod_contrasts.csv -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_common_graph/pilot_aoi.geojson -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_common_graph
+copying research/paper_protocols/batagay_external/epochs.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_external
+copying research/paper_protocols/batagay_external/external_summary.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_external
+copying research/paper_protocols/batagay_external/fixed_optical_objects.geojson -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_external
+copying research/paper_protocols/batagay_external/fixed_target_window.geojson -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_external
+copying research/paper_protocols/batagay_external/frozen_protocol.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_external
+copying research/paper_protocols/batagay_external/worker_status.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_external
+copying research/paper_protocols/batagay_four_epoch/epochs.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_four_epoch
+copying research/paper_protocols/batagay_four_epoch/fixed_optical_objects.geojson -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_four_epoch
+copying research/paper_protocols/batagay_four_epoch/fixed_target_window.geojson -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_four_epoch
+copying research/paper_protocols/batagay_four_epoch/four_epoch_summary.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_four_epoch
+copying research/paper_protocols/batagay_four_epoch/frozen_protocol.json -> arcticdem_workbench-0.11.1/research/paper_protocols/batagay_four_epoch
+copying research/paper_protocols/run24/RUN24_audited_results.json -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/fixed_point_comparison.csv -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/frozen_coreg.py -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/inspection_points.geojson -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/joint_gradient_candidate.py -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/method_comparison.csv -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/method_summary.csv -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/protocol.json -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/reference_lineage.json -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/paper_protocols/run24/status.json -> arcticdem_workbench-0.11.1/research/paper_protocols/run24
+copying research/rs_reproduction/FIGURE_CAPTIONS.md -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/FIGURE_TABLE_INDEX.md -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/INPUT_MANIFEST.json -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/LOCAL_CHECK_CN.md -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/README.md -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/README_CN.md -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/RS_SPATIAL_MANIFEST.json -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/reproduce_paper.py -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/reproduce_rs.py -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/runtime_support.py -> arcticdem_workbench-0.11.1/research/rs_reproduction
+copying research/rs_reproduction/data/evidence/acceptance_0110/summary.json -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/evidence/acceptance_0110
+copying research/rs_reproduction/data/evidence/batagay_common_graph/common_graph_summary.json -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/evidence/batagay_common_graph
+copying research/rs_reproduction/data/evidence/run24/RUN24_audited_results.json -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/evidence/run24
+copying research/rs_reproduction/data/evidence/run24/method_summary.csv -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/evidence/run24
+copying research/rs_reproduction/data/evidence/run24/protocol.json -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/evidence/run24
+copying research/rs_reproduction/data/spatial/epochs.json -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/spatial
+copying research/rs_reproduction/data/spatial/fixed_optical_objects.geojson -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/spatial
+copying research/rs_reproduction/data/spatial/fixed_target_window.geojson -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/spatial
+copying research/rs_reproduction/data/spatial/ne_110m_coastline.geojson -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/spatial
+copying research/rs_reproduction/data/spatial/pilot_aoi.geojson -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/spatial
+copying research/rs_reproduction/data/spatial/reference_lineage.json -> arcticdem_workbench-0.11.1/research/rs_reproduction/data/spatial
+copying research/rs_reproduction/scripts/render_batagay.py -> arcticdem_workbench-0.11.1/research/rs_reproduction/scripts
+copying research/rs_reproduction/scripts/rs_result_style.py -> arcticdem_workbench-0.11.1/research/rs_reproduction/scripts
+copying research/softwarex_figure/plot_architecture.py -> arcticdem_workbench-0.11.1/research/softwarex_figure
+copying tests/test_batagay_auto_runner.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_batagay_raw_runner.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_cases.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_coverage.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_coverage_gui.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_coverage_recovery.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_error_structure.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_gui.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_io.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_joint_gradient.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_project.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_science.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_startup_recovery.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_support.py -> arcticdem_workbench-0.11.1/tests
+copying tests/test_validation_suite.py -> arcticdem_workbench-0.11.1/tests
+copying tools/batagay_auto_reference.json -> arcticdem_workbench-0.11.1/tools
+copying tools/batagay_raw_reference.json -> arcticdem_workbench-0.11.1/tools
+copying tools/batagay_raw_report.py -> arcticdem_workbench-0.11.1/tools
+copying tools/build_release.py -> arcticdem_workbench-0.11.1/tools
+copying tools/freeze_source_inventory.py -> arcticdem_workbench-0.11.1/tools
+copying tools/recover_coverage_report.py -> arcticdem_workbench-0.11.1/tools
+copying tools/resume_release_gui.py -> arcticdem_workbench-0.11.1/tools
+copying tools/run_batagay_auto_check.py -> arcticdem_workbench-0.11.1/tools
+copying tools/run_batagay_pilot.py -> arcticdem_workbench-0.11.1/tools
+copying tools/run_batagay_raw_baseline.py -> arcticdem_workbench-0.11.1/tools
+copying tools/run_live_example.py -> arcticdem_workbench-0.11.1/tools
+copying tools/run_paper_release.py -> arcticdem_workbench-0.11.1/tools
+copying tools/run_report_diagnostics.py -> arcticdem_workbench-0.11.1/tools
+copying tools/run_rs_replot.py -> arcticdem_workbench-0.11.1/tools
+copying tools/run_scientific_validation.py -> arcticdem_workbench-0.11.1/tools
+copying tools/start_gui.py -> arcticdem_workbench-0.11.1/tools
+copying tools/validate_release.py -> arcticdem_workbench-0.11.1/tools
+copying tools/validate_scientific_gui.py -> arcticdem_workbench-0.11.1/tools
+copying tools/verify_public_release.py -> arcticdem_workbench-0.11.1/tools
+copying tools/wheel_smoke.py -> arcticdem_workbench-0.11.1/tools
+Writing arcticdem_workbench-0.11.1/setup.cfg
+Creating tar archive
+removing 'arcticdem_workbench-0.11.1' (and everything under it)
+* Building wheel from sdist
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools>=77
+* Getting build dependencies for wheel...
+running egg_info
+writing arcticdem_workbench.egg-info/PKG-INFO
+writing dependency_links to arcticdem_workbench.egg-info/dependency_links.txt
+writing entry points to arcticdem_workbench.egg-info/entry_points.txt
+writing requirements to arcticdem_workbench.egg-info/requires.txt
+writing top-level names to arcticdem_workbench.egg-info/top_level.txt
+reading manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'work'
+no previously-included directories found matching 'build'
+no previously-included directories found matching 'dist'
+no previously-included directories found matching 'validation'
+no previously-included directories found matching '.venv'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+* Installed build dependency versions:
+  - setuptools==84.0.0
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build/lib/arcticdem_workbench
+copying arcticdem_workbench/__init__.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/windows_runtime.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/pipeline.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/common.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/catalog.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/project_ui.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/__main__.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/coverage_ui.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/cases_ui.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/coverage_render.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/registration_methods.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/coverage_recovery.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/reporting.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/http_range.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/cases.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/diagnostics.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/project.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/scientific_qc.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/pilots.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/plots.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/error_structure.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/coverage.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/support.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/network.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/demo.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/_joint_gradient_frozen.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/coreg.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/validation_suite.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/cli.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/raster.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/spatial.py -> build/lib/arcticdem_workbench
+copying arcticdem_workbench/gui.py -> build/lib/arcticdem_workbench
+running egg_info
+writing arcticdem_workbench.egg-info/PKG-INFO
+writing dependency_links to arcticdem_workbench.egg-info/dependency_links.txt
+writing entry points to arcticdem_workbench.egg-info/entry_points.txt
+writing requirements to arcticdem_workbench.egg-info/requires.txt
+writing top-level names to arcticdem_workbench.egg-info/top_level.txt
+reading manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'work'
+no previously-included directories found matching 'build'
+no previously-included directories found matching 'dist'
+no previously-included directories found matching 'validation'
+no previously-included directories found matching '.venv'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'arcticdem_workbench.egg-info/SOURCES.txt'
+creating build/lib/arcticdem_workbench/assets
+copying arcticdem_workbench/assets/ne_110m_coastline.geojson -> build/lib/arcticdem_workbench/assets
+copying arcticdem_workbench/assets/published_cases.json -> build/lib/arcticdem_workbench/assets
+creating build/lib/arcticdem_workbench/assets/pilots
+copying arcticdem_workbench/assets/pilots/batagay_coverage_reference.json -> build/lib/arcticdem_workbench/assets/pilots
+copying arcticdem_workbench/assets/pilots/batagay_query.json -> build/lib/arcticdem_workbench/assets/pilots
+copying arcticdem_workbench/assets/pilots/batagay_selection.json -> build/lib/arcticdem_workbench/assets/pilots
+copying arcticdem_workbench/assets/pilots/batagay_query.csv -> build/lib/arcticdem_workbench/assets/pilots
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/arcticdem_workbench
+copying build/lib/arcticdem_workbench/__init__.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/windows_runtime.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/pipeline.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/common.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/catalog.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/project_ui.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/__main__.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+creating build/bdist.linux-x86_64/wheel/arcticdem_workbench/assets
+creating build/bdist.linux-x86_64/wheel/arcticdem_workbench/assets/pilots
+copying build/lib/arcticdem_workbench/assets/pilots/batagay_query.csv -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench/assets/pilots
+copying build/lib/arcticdem_workbench/assets/pilots/batagay_coverage_reference.json -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench/assets/pilots
+copying build/lib/arcticdem_workbench/assets/pilots/batagay_query.json -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench/assets/pilots
+copying build/lib/arcticdem_workbench/assets/pilots/batagay_selection.json -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench/assets/pilots
+copying build/lib/arcticdem_workbench/assets/published_cases.json -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench/assets
+copying build/lib/arcticdem_workbench/assets/ne_110m_coastline.geojson -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench/assets
+copying build/lib/arcticdem_workbench/coverage_ui.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/cases_ui.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/coverage_render.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/registration_methods.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/coverage_recovery.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/reporting.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/http_range.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/cases.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/diagnostics.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/project.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/scientific_qc.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/pilots.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/plots.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/error_structure.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/coverage.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/support.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/network.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/demo.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/_joint_gradient_frozen.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/coreg.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/validation_suite.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/cli.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/raster.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/spatial.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+copying build/lib/arcticdem_workbench/gui.py -> build/bdist.linux-x86_64/wheel/./arcticdem_workbench
+running install_egg_info
+Copying arcticdem_workbench.egg-info to build/bdist.linux-x86_64/wheel/./arcticdem_workbench-0.11.1-py3.12.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/arcticdem_workbench-0.11.1.dist-info/WHEEL
+creating '/workspace/scratch/92e116643f00/ArcticDEM_Workbench_GitHub_v0.11.1/dist/.tmp-puhhujv0/arcticdem_workbench-0.11.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'arcticdem_workbench/__init__.py'
+adding 'arcticdem_workbench/__main__.py'
+adding 'arcticdem_workbench/_joint_gradient_frozen.py'
+adding 'arcticdem_workbench/cases.py'
+adding 'arcticdem_workbench/cases_ui.py'
+adding 'arcticdem_workbench/catalog.py'
+adding 'arcticdem_workbench/cli.py'
+adding 'arcticdem_workbench/common.py'
+adding 'arcticdem_workbench/coreg.py'
+adding 'arcticdem_workbench/coverage.py'
+adding 'arcticdem_workbench/coverage_recovery.py'
+adding 'arcticdem_workbench/coverage_render.py'
+adding 'arcticdem_workbench/coverage_ui.py'
+adding 'arcticdem_workbench/demo.py'
+adding 'arcticdem_workbench/diagnostics.py'
+adding 'arcticdem_workbench/error_structure.py'
+adding 'arcticdem_workbench/gui.py'
+adding 'arcticdem_workbench/http_range.py'
+adding 'arcticdem_workbench/network.py'
+adding 'arcticdem_workbench/pilots.py'
+adding 'arcticdem_workbench/pipeline.py'
+adding 'arcticdem_workbench/plots.py'
+adding 'arcticdem_workbench/project.py'
+adding 'arcticdem_workbench/project_ui.py'
+adding 'arcticdem_workbench/raster.py'
+adding 'arcticdem_workbench/registration_methods.py'
+adding 'arcticdem_workbench/reporting.py'
+adding 'arcticdem_workbench/scientific_qc.py'
+adding 'arcticdem_workbench/spatial.py'
+adding 'arcticdem_workbench/support.py'
+adding 'arcticdem_workbench/validation_suite.py'
+adding 'arcticdem_workbench/windows_runtime.py'
+adding 'arcticdem_workbench/assets/ne_110m_coastline.geojson'
+adding 'arcticdem_workbench/assets/published_cases.json'
+adding 'arcticdem_workbench/assets/pilots/batagay_coverage_reference.json'
+adding 'arcticdem_workbench/assets/pilots/batagay_query.csv'
+adding 'arcticdem_workbench/assets/pilots/batagay_query.json'
+adding 'arcticdem_workbench/assets/pilots/batagay_selection.json'
+adding 'arcticdem_workbench-0.11.1.dist-info/licenses/LICENSE'
+adding 'arcticdem_workbench-0.11.1.dist-info/METADATA'
+adding 'arcticdem_workbench-0.11.1.dist-info/WHEEL'
+adding 'arcticdem_workbench-0.11.1.dist-info/entry_points.txt'
+adding 'arcticdem_workbench-0.11.1.dist-info/top_level.txt'
+adding 'arcticdem_workbench-0.11.1.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built arcticdem_workbench-0.11.1.tar.gz and arcticdem_workbench-0.11.1-py3-none-any.whl

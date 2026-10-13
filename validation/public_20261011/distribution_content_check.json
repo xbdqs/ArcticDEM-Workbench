@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "sdist_source_files_verified": 164,
+  "wheel_application_files_verified": 38,
+  "license_expression": "MIT",
+  "requires_python": "<3.13,>=3.12",
+  "missing": [],
+  "mismatches": [],
+  "source_manifest_sha256": "0af45682b5ae8e119ffff4e748580497f6aafd06a8d85bf5143719d1ef544c75"
+}

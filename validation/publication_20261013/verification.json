@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "scope": "Publication packaging and new plotting entry points; no scientific refitting",
+  "software_version": "0.11.1",
+  "application_source_files_unchanged": 38,
+  "prior_full_tests": "validation/public_20261011/tests.log: 104 passed, 2026-10-11",
+  "rs_reference_check": {
+    "status": "passed",
+    "references_cited_and_listed": 40,
+    "journal_publications": 35,
+    "DOI_metadata_records": 34,
+    "first_appearance_order_verified": true,
+    "all_six_figures_and_six_tables_called_in_main_text": true,
+    "documents": {
+      "01_RS_Manuscript.docx": {
+        "local_REF_targets_and_cached_numbers_verified": 88,
+        "cross_document_targets_and_numbers_verified": 20,
+        "citation_number_occurrences": 69,
+        "SEQ_fields": {
+          "Figure": 6,
+          "Table": 1,
+          "Reference": 40
+        },
+        "bookmark_count": 66
+      },
+      "02_RS_Supplementary_Methods.docx": {
+        "local_REF_targets_and_cached_numbers_verified": 5,
+        "cross_document_targets_and_numbers_verified": 13,
+        "citation_number_occurrences": 7,
+        "SEQ_fields": {
+          "SupplementTable": 5
+        },
+        "bookmark_count": 11
+      }
+    },
+    "scientific_calculations_rerun": false
+  },
+  "softwarex_reference_count": 9,
+  "softwarex_REF_targets_checked": 13,
+  "rs_figures": 6,
+  "rs_supplementary_tables": 5,
+  "all_new_RS_PNGs_decoded": true,
+  "new_softwarex_figure_decoded": true,
+  "distribution_build": "passed",
+  "remote_GitHub_CI": "not_run",
+  "visible_Windows_acceptance": "pending"
+}

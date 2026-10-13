@@ -1,0 +1,21 @@
+{
+  "software_version": "0.11.1",
+  "documentation_revision": "2026-10-13 author placeholder update",
+  "local_acceptance": "passed",
+  "windows_record": "validation/windows_20261013/review.json",
+  "linux_record": "validation/public_20261011/",
+  "earlier_publication_record": "validation/publication_20261013/",
+  "numerical_application_files_unchanged": 38,
+  "source_code_or_algorithm_changes_in_this_update": false,
+  "local_acceptance_repeat_requested": false,
+  "human_visual_review": "not_recorded",
+  "remote_GitHub_CI": "not_run",
+  "public_repository_url": null,
+  "immutable_release_id": null,
+  "submission_state": "Full authorship and manuscript declarations to be completed at submission; public repository, release and study archive links pending",
+  "historical_full_pixelwise_reproduction": "requires separately deposited inputs, environments and orchestration",
+  "author_label": "Du et al.",
+  "author_label_status": "temporary, requested by the user",
+  "funding_information_in_repository": false,
+  "author_details_block_code_upload": false
+}

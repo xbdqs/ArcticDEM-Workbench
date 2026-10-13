@@ -1,0 +1,16 @@
+include README.md README_CN.md LICENSE CHANGELOG.md CONTRIBUTING.md CITATION.cff VERSION.txt
+include requirements*.txt environment.yml PUBLIC_SOURCE_MANIFEST.json .gitignore .gitattributes
+include RUN_*.bat START_HERE.txt
+recursive-include arcticdem_workbench *.py *.geojson *.json *.csv
+recursive-include tests *.py
+recursive-include tools *.py *.json
+recursive-include docs *.md *.json
+recursive-include examples *.md
+recursive-include research *.py *.md *.json *.csv *.geojson
+recursive-include .github *.yml
+prune work
+prune build
+prune dist
+prune validation
+prune .venv
+global-exclude __pycache__ *.py[cod]

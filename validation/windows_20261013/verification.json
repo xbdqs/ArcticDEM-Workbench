@@ -1,0 +1,115 @@
+{
+  "schema": "arcticdem-public-acceptance-v1",
+  "software_version": "0.11.1",
+  "packaging_revision": "2026-10-11",
+  "status": "passed",
+  "started_utc": "2026-10-13T03:46:15.204670+00:00",
+  "existing_research_results_reused_or_modified": false,
+  "packages_installed": false,
+  "data_downloads": false,
+  "inputs": "new synthetic DEMs only",
+  "checks": {
+    "source_inventory": true,
+    "regression_suite": true,
+    "synthetic_pipeline_common_support_project": true,
+    "gui_saved_case_offscreen": true
+  },
+  "human_visual_review": "not_recorded",
+  "external_elevation_accuracy": "not_evaluated",
+  "runtime_startup": {
+    "status": "passed",
+    "platform": "win32",
+    "executable": "<CONDA_ENV>\\python.exe",
+    "prefix": "<CONDA_ENV>",
+    "isolated": true,
+    "permanent_environment_changes": false,
+    "package_installation": false,
+    "dll_directories": [
+      "<CONDA_ENV>\\Library\\bin",
+      "<CONDA_ENV>\\DLLs",
+      "<CONDA_ENV>",
+      "<CONDA_ENV>\\Lib\\site-packages\\PySide6"
+    ],
+    "expat_preloads": [
+      "<CONDA_ENV>\\Library\\bin\\libexpat.dll"
+    ],
+    "pyexpat_binary": "<CONDA_ENV>\\DLLs\\pyexpat.pyd",
+    "pyexpat_dependency_names": [
+      "libexpat.dll",
+      "python312.dll",
+      "VCRUNTIME140.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "KERNEL32.dll"
+    ],
+    "pyexpat_import": "passed",
+    "pyexpat_origin": "<CONDA_ENV>\\DLLs\\pyexpat.pyd",
+    "expat_version": "expat_2.8.1",
+    "pyside_directory": "<CONDA_ENV>\\Lib\\site-packages\\PySide6"
+  },
+  "source_files_verified": 195,
+  "test_count": 104,
+  "synthetic_acceptance": {
+    "checks": {
+      "correct_local_code": true,
+      "frozen_joint_source": true,
+      "joint_pipeline_completed": true,
+      "three_epoch_cycle": true,
+      "demo_minus_8m_preserved": true,
+      "four_methods_recorded": true,
+      "no_automatic_scientific_selection": true,
+      "joint_fixed_order_display": true,
+      "common_support_report": true,
+      "joint_project_roundtrip": true
+    },
+    "known_demo_change_m": -8,
+    "recovered_demo_change_m": -8.0040283203125,
+    "environment": {
+      "workbench": "0.11.1",
+      "python": "3.12.13",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "numpy": "2.2.6",
+      "scipy": "1.15.2",
+      "rasterio": "1.4.4",
+      "pyproj": "3.7.2",
+      "shapely": "2.1.2",
+      "matplotlib": "3.10.8",
+      "PySide6-Essentials": "6.9.3"
+    },
+    "gdal": "3.10.3",
+    "source_kind": "synthetic_release_acceptance",
+    "candidate_engine_sha256": "0ca918973285db1772da9d17a143238652edbf48af61e5e31f57a7b8e1064f9e",
+    "common_support_report": {
+      "output": "<ACCEPTANCE_DIR>\\synthetic_case\\common_support_report",
+      "html": "<ACCEPTANCE_DIR>\\synthetic_case\\common_support_report\\report.html",
+      "sample_rows": 8,
+      "common_support_status": "completed",
+      "common_cells": 64496,
+      "common_fraction": 0.9841308703835494,
+      "common_support_reason": null
+    },
+    "project": "<ACCEPTANCE_DIR>\\synthetic_case\\acceptance_case.arcticdem.json",
+    "external_accuracy_validation": false,
+    "network_downloads_performed": false
+  },
+  "environment": {
+    "workbench": "0.11.1",
+    "python": "3.12.13",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.2",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.2",
+    "shapely": "2.1.2",
+    "matplotlib": "3.10.8",
+    "PySide6-Essentials": "6.9.3"
+  },
+  "gui_offscreen": {
+    "status": "passed",
+    "qt_platform": "offscreen",
+    "tabs": 7,
+    "project_reopened": true,
+    "human_visual_review": "not_recorded"
+  },
+  "interactive_gui_session": "opened_and_closed",
+  "finished_utc": "2026-10-13T03:47:51.439920+00:00"
+}

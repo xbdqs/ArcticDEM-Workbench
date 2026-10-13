@@ -1,0 +1,105 @@
+{
+  "schema": "arcticdem-acceptance-review-v1",
+  "review_date_utc": "2026-10-13",
+  "software_version": "0.11.1",
+  "local_release_acceptance": "passed",
+  "original_upload": {
+    "name": "UPLOAD_PUBLIC_ACCEPTANCE_20261012_214615_203105.zip",
+    "sha256": "db0481dfc322f1c95dea99c4bea2480cc8c6af389967013bc0aa5b893afb347e",
+    "inventory_files": 175,
+    "all_recorded_sizes_and_sha256_verified": true,
+    "zip_crc": "passed"
+  },
+  "associated_accepted_source_zip_sha256": "43b263e887444053e811331027b7817e7821b070bc967f283f847e9956bce62e",
+  "source_inventory": {
+    "files_verified_by_local_runner": 195,
+    "associated_delivery_inventory_checked_in_review": 195,
+    "inventory_copy": "tested_source_manifest.json"
+  },
+  "regression": {
+    "passed": 104,
+    "duration_seconds": 48.406
+  },
+  "synthetic_checks_passed": {
+    "correct_local_code": true,
+    "frozen_joint_source": true,
+    "joint_pipeline_completed": true,
+    "three_epoch_cycle": true,
+    "demo_minus_8m_preserved": true,
+    "four_methods_recorded": true,
+    "no_automatic_scientific_selection": true,
+    "joint_fixed_order_display": true,
+    "common_support_report": true,
+    "joint_project_roundtrip": true
+  },
+  "synthetic_known_change_m": -8,
+  "synthetic_recovered_change_m": -8.0040283203125,
+  "common_cells": 64496,
+  "common_fraction": 0.9841308703835494,
+  "gui_offscreen": "passed",
+  "interactive_gui_session": "opened_and_closed",
+  "project_restoration": "passed",
+  "human_visual_review": "not_recorded",
+  "external_elevation_accuracy": "not_evaluated",
+  "remote_GitHub_CI": "not_run",
+  "environment": {
+    "workbench": "0.11.1",
+    "python": "3.12.13",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.2",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.2",
+    "shapely": "2.1.2",
+    "matplotlib": "3.10.8",
+    "PySide6-Essentials": "6.9.3"
+  },
+  "gdal": "3.10.3",
+  "new_scientific_experiments_in_this_review": false,
+  "full_historical_pixelwise_rerun": "not_performed",
+  "public_log_transform": "Local Conda and acceptance directory roots replaced by tokens; JSON reformatted; statuses and numerical results preserved.",
+  "published_evidence_lineage": [
+    {
+      "original_member": "verification.json",
+      "original_sha256": "4d45ef6f545cac10424dccfea96f3b0d0acf1967056d2c995486022ff6c1b8a9",
+      "published_file": "verification.json",
+      "published_sha256": "fcb544a7ea26537c490a8a643d185f333590f75992a097811515b2917e16b7e0"
+    },
+    {
+      "original_member": "tests.log",
+      "original_sha256": "4c783366801e79dbe41d6d0a2081b35c12aad277ad498b1ce4e578ff283a5e19",
+      "published_file": "tests.log",
+      "published_sha256": "e52c098b33c03dc4252fb00bf12175b4c5395b49a49fd142ab8bd1a4a65d2844"
+    },
+    {
+      "original_member": "synthetic_acceptance.log",
+      "original_sha256": "bc9391a2e8bb4f4ba637d7dd98ecce4d309b46a8fff77f1f332fb1b76971abef",
+      "published_file": "synthetic_acceptance.log",
+      "published_sha256": "d26756acdefae7e6371bdd06674a3316b989cc42cdc81b809d763dd725b7e65d"
+    },
+    {
+      "original_member": "gui_offscreen.log",
+      "original_sha256": "53c1886ced476f8c00cd61a145b7e629a48c71392dd2347b0b6ac3c29071234b",
+      "published_file": "gui_offscreen.log",
+      "published_sha256": "a349839edd2bcf16072cbba4058e3b9dc9ff13aae727054b16d86abc79db63ee"
+    },
+    {
+      "original_member": "gui_interactive.log",
+      "original_sha256": "1368295fb7c25fba89db5dc15dc82f460f6b33da2be81dce7292729a7cde3e50",
+      "published_file": "gui_interactive.log",
+      "published_sha256": "1368295fb7c25fba89db5dc15dc82f460f6b33da2be81dce7292729a7cde3e50"
+    },
+    {
+      "original_member": "workbench.log",
+      "original_sha256": "52c3216a4b069cd3cfed13691ed9d182046a99f27f911199ef9f2d09ddd09404",
+      "published_file": "workbench.log",
+      "published_sha256": "52c3216a4b069cd3cfed13691ed9d182046a99f27f911199ef9f2d09ddd09404"
+    }
+  ],
+  "nonfatal_messages": [
+    "Qt font directory warning in offscreen log",
+    "Qt offscreen propagateSizeHints warning",
+    "NumPy optional PyYAML configuration-output warning"
+  ],
+  "next_step": "Publish prepared repository, record actual CI and immutable release, complete author and availability fields."
+}

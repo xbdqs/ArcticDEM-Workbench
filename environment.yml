@@ -1,0 +1,11 @@
+name: arcticdem_dod
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - expat
+# Compiled scientific and Qt packages are installed together from Windows
+# wheels by RUN_01_SETUP.bat. Keeping them out of Conda prevents duplicate
+# GDAL/GEOS/Qt/Pillow DLL families in the same environment.

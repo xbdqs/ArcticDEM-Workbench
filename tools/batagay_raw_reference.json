@@ -1,0 +1,209 @@
+{
+  "schema": "batagay_raw_reference_v1",
+  "label": "Frozen 2016-08-15 / 2018-06-08 / 2024-09-20 raw DoD; no registration or field validation",
+  "core_sha256": {
+    "__init__.py": "3dea95b533358f7ffcd08fb3108a8b52ef1947c86ea278967dcc88affd2c0de7",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "cases.py": "516b01bf8964be8a6f889d82e1dd31adabccc48795392409628577ff6293a36f",
+    "cases_ui.py": "84a88831645844b7fa346287750d4e2cf06b4dcee7f1effb675f72e6158e2619",
+    "catalog.py": "e518d8c744078977e466ef19975c5d81e27122534d5253e5c173f56c061b796e",
+    "cli.py": "b598250530a458d621956a58ddce5c6f18a1d289f4f0155d2924ea8d53455ce7",
+    "common.py": "6b36624c0e544f5bce78ba61e2f1502d148a96717adebf753fadd1471e7d00ea",
+    "coreg.py": "f494b6ec40e8cbca497716cfebcbfefaeda360013a6e1eafd64a65fee88bc2c5",
+    "coverage.py": "dbe64d2eb530ba4a5f056300c06317147471f571c1d53dd06c537a43f6dec71b",
+    "coverage_recovery.py": "1108f1ae328aeaec208d2112ab4060486d88fbc4f4c793a5b1e09e3996e35cfa",
+    "coverage_render.py": "9f234c0520950bb7ce4fdd4104204f485bcdc8a88294b4925e2f6783d351087b",
+    "coverage_ui.py": "bb77c13ed4e14ed635084e1d594243720abf51953ba7735d34365b8923e761c5",
+    "demo.py": "62984b4cbe6467164d3dadf14a8448e11549f9f1a37f032d809ef68d893c4c29",
+    "diagnostics.py": "50c993578a2a8144906c97c85eb17055e4ee9b9e4bc21772e8ec2ee5b348b565",
+    "error_structure.py": "72a4ed4bb89ebe9fe8e43e74c8b6a1bb69c08c7d2133f1b3c7798bb61b74650a",
+    "gui.py": "e7d069704e18b23ed0262fb2a1fbeb89f96b8636fc22154553fe0f316a0f7344",
+    "http_range.py": "db8307f873e8c1691bc9e1257021bc4cef031aefb844fc5d3e2c079e49d7e9b6",
+    "network.py": "20f5653ba194f3da830aae596364197abaf00cb25a53dee8290682c2140ad870",
+    "pilots.py": "b2984b92020e7252653ce9437fbcb9b2f66241836e4b56828dcb43e44ed0e0ae",
+    "pipeline.py": "1352cb0319494d14be5626c60b1c18ce4f0eae3b36da9417bae5e5e134f37ead",
+    "plots.py": "857024d6f087182761a043c5e07c420453f96748285f0f34d3e8eb375684f1b2",
+    "project.py": "1f61635ab2beacdc5fae6305a0e7cf669948d319a1388b178d8b9cc7a9904f65",
+    "project_ui.py": "f2d95260162b0e70bc1fdedea8567f604e57de6e32fdb7a9d86d46d62b57e4d4",
+    "raster.py": "a26cee769b39b86be1d8e600bb3efce65a208cf765bed4640e38b8b8549dd6a1",
+    "reporting.py": "8a73a9dc149f338d3da4ca209a17714ce21efdfa6612680eb92189fe158279f0",
+    "scientific_qc.py": "7c4ea4685604b08117d157b7ccfbc713b363e034f16cb0ce0df530597515b2a0",
+    "spatial.py": "31a61d01fade0f28c18064bdbcea062c532c25e1f9869d80754b69a41daa4ea9",
+    "support.py": "06740f44b4382978e9f0707ccf3ea3931394bfd33163d4baae9db27c41839947",
+    "validation_suite.py": "e615866c3f88d4f885315d4258925b24a8c220b8f19c51a012bda18b268fd5c5"
+  },
+  "input_reference_sha256": "5da9f7ec3f5fc74e8797e92887856ca2394e43f7482f1b8b6f2096018bdc818d",
+  "raster_content": {
+    "epoch_stack.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        3,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "8294d656084d93daa234d97bd9a1b5b661c6f7c686ef3f7c935d5fd8b4093137",
+      "invalid_mask_sha256": "cdc902cd3da08238b1a408ce038f7fd7e434136497ba744c65858e5794bc0c71"
+    },
+    "source_common_valid_mask.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "e13067c3cb7c0fb21a965f25c661965853b5f4cf15ea69e9671b1df26b8161f1",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "valid_epoch_count.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "uint8",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "0e64c2b535ffbeb7a61999bfbb2bcd6860d65d15a5eafa59e8149bc189497a31",
+      "invalid_mask_sha256": "215400a7250978ec8a9600716fae1d782908fdb209ba6074a17d45295e61f2a8"
+    },
+    "dod_00_01_2016-08-15_2018-06-08.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "b530928c51237fcccd0491196eff090d0ec9662ec96e2d8288ac91bcbd88ab70",
+      "invalid_mask_sha256": "ce62e3425390a56958489591b18d151f0283a717b0732b9e52ddf8df2452c979"
+    },
+    "dod_00_02_2016-08-15_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "1fbd5e0177b7952e396d4bec746b12f480c3f4ed73574b0bc2d28a08d73efb54",
+      "invalid_mask_sha256": "b6711be0120b110108bf69fe6b954c86bc6d3358cb9e310bbeeedb1841a63f1d"
+    },
+    "dod_01_02_2018-06-08_2024-09-20.tif": {
+      "schema": "coverage_values_v1",
+      "shape": [
+        1,
+        2256,
+        1726
+      ],
+      "dtype": "float32",
+      "crs": "EPSG:3413",
+      "transform": [
+        2.0,
+        0.0,
+        8146.0,
+        0.0,
+        -2.0,
+        2461154.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "value_sha256": "35a37bbb741cf003eecfab7f87344db765f812d831c6ffb13c6e8b7ff48dee94",
+      "invalid_mask_sha256": "1099b1af38bcf36543b5755213faa5b95a4d8560170a433019988451a4b52571"
+    }
+  },
+  "common_cells": 3858401,
+  "point_series": [
+    {
+      "point_id": "batagay:approximate_published_location",
+      "longitude": 134.77,
+      "latitude": 67.58,
+      "row": 1127,
+      "column": 862,
+      "date": "2016-08-15T02:26:38Z",
+      "height_m": 240.7890625,
+      "status": "valid"
+    },
+    {
+      "point_id": "batagay:approximate_published_location",
+      "longitude": 134.77,
+      "latitude": 67.58,
+      "row": 1127,
+      "column": 862,
+      "date": "2018-06-08T05:35:50Z",
+      "height_m": 236.6640625,
+      "status": "valid"
+    },
+    {
+      "point_id": "batagay:approximate_published_location",
+      "longitude": 134.77,
+      "latitude": 67.58,
+      "row": 1127,
+      "column": 862,
+      "date": "2024-09-20T07:23:21Z",
+      "height_m": 245.53125,
+      "status": "valid"
+    }
+  ]
+}

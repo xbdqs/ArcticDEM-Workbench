@@ -1,0 +1,3 @@
+ArcticDEM Workbench 0.11.1 public-source packaging, 2026-10-11.
+Read README.md or README_CN.md. Existing Windows users: run RUN_PUBLIC_ACCEPTANCE.bat in the working Python 3.12 environment.
+Publication steps: docs/GITHUB_PUBLISH_CN.md. Do not upload only the ZIP as the source repository.

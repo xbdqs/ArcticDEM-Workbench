@@ -1,0 +1,14 @@
+This plugin does not support propagateSizeHints()
+{
+  "status": "passed",
+  "version": "0.11.1",
+  "installed_wheel": true,
+  "package_file": "/workspace/scratch/92e116643f00/release_20261011/test_env/lib/python3.12/site-packages/arcticdem_workbench/__init__.py",
+  "assets_checked": 6,
+  "case_templates": 3,
+  "synthetic_known_change_m": -8,
+  "recovered_change_m": -8.0040283203125,
+  "pipeline_status": "completed",
+  "qt_platform": "offscreen",
+  "human_visual_review": "not_recorded"
+}

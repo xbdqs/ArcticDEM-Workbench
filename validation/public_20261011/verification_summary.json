@@ -1,0 +1,49 @@
+{
+  "date_utc": "2026-10-11T16:23:18.151865+00:00",
+  "software_version": "0.11.1",
+  "packaging_revision": "2026-10-11",
+  "platform": "Linux x86_64, Python 3.12.14",
+  "regression_tests": {
+    "run": 104,
+    "passed": 104,
+    "failed": 0,
+    "errors": 0,
+    "log": "tests.log"
+  },
+  "application_source_byte_identity": {
+    "files": 38,
+    "python_files": 32,
+    "unchanged": true
+  },
+  "source_acceptance": "passed",
+  "known_change_m": -8,
+  "recovered_change_m": -8.0040283203125,
+  "sdist_build": "passed",
+  "wheel_build": "passed",
+  "distribution_content_check": "passed",
+  "installed_wheel_pipeline": "passed",
+  "assets_checked": 6,
+  "gui_platform": "offscreen",
+  "gui_startup_and_saved_project": "passed",
+  "pip_check": "No broken requirements found.",
+  "paper_replot": {
+    "figures": 4,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ],
+    "supplementary_tables": 3,
+    "source_values_agree": true,
+    "table_S2_matches_manuscript_6dp": true,
+    "visual_review_of_four_figures": "completed",
+    "reran_registration": false
+  },
+  "source_manifest_sha256": "0af45682b5ae8e119ffff4e748580497f6aafd06a8d85bf5143719d1ef544c75",
+  "pending": [
+    "visible Windows public-package acceptance",
+    "remote GitHub Windows and Linux CI after publication"
+  ],
+  "scientific_accuracy_claim": "No real-data external accuracy established by software checks",
+  "test_scope_note": "Full regression suite executed before final license/manifest packaging edits; numerical modules, tests and acceptance code unchanged thereafter. Final source distribution and installed wheel checked after those metadata edits."
+}

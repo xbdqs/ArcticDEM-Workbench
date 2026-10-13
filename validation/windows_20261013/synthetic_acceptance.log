@@ -1,0 +1,44 @@
+[1/4] Local release and frozen source verified.
+Loading 2010-08-01 on 256 x 256 grid.
+Loading 2012-08-01 on 256 x 256 grid.
+Loading 2014-08-01 on 256 x 256 grid.
+Independent registration edge 0 -> 1: 2010-08-01 / 2012-08-01
+Independent registration edge 0 -> 2: 2010-08-01 / 2014-08-01
+Independent registration edge 1 -> 2: 2012-08-01 / 2014-08-01
+Completed: <ACCEPTANCE_DIR>\synthetic_case\joint_result
+[2/4] Three-epoch joint pipeline and known demo change checked.
+Method comparison: vertical
+Loading 2010-08-01 on 256 x 256 grid.
+Loading 2012-08-01 on 256 x 256 grid.
+Independent registration edge 0 -> 1: 2010-08-01 / 2012-08-01
+Completed: <ACCEPTANCE_DIR>\synthetic_case\four_method_comparison\vertical
+Method comparison: translation
+Loading 2010-08-01 on 256 x 256 grid.
+Loading 2012-08-01 on 256 x 256 grid.
+Independent registration edge 0 -> 1: 2010-08-01 / 2012-08-01
+Completed: <ACCEPTANCE_DIR>\synthetic_case\four_method_comparison\translation
+Method comparison: nuth_kaab
+Loading 2010-08-01 on 256 x 256 grid.
+Loading 2012-08-01 on 256 x 256 grid.
+Independent registration edge 0 -> 1: 2010-08-01 / 2012-08-01
+Completed: <ACCEPTANCE_DIR>\synthetic_case\four_method_comparison\nuth_kaab
+Method comparison: joint_gradient
+Loading 2010-08-01 on 256 x 256 grid.
+Loading 2012-08-01 on 256 x 256 grid.
+Independent registration edge 0 -> 1: 2010-08-01 / 2012-08-01
+Completed: <ACCEPTANCE_DIR>\synthetic_case\four_method_comparison\joint_gradient
+Collecting existing results: vertical
+Collecting existing results: translation
+Collecting existing results: nuth_kaab
+Collecting existing results: joint_gradient
+Intersecting valid pixels across every completed method and every epoch…
+Statistics on fixed support: vertical
+Statistics on fixed support: translation
+Statistics on fixed support: nuth_kaab
+Statistics on fixed support: joint_gradient
+Terrain and spatial-block diagnostics: vertical
+Terrain and spatial-block diagnostics: translation
+Terrain and spatial-block diagnostics: nuth_kaab
+Terrain and spatial-block diagnostics: joint_gradient
+[3/4] Four methods, fixed point and common-support report checked.
+[4/4] Joint method project saved and reopened.
