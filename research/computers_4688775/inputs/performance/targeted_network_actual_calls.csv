@@ -1,0 +1,13 @@
+﻿run,method,epoch_count,edge_count,elapsed_ms,cycle_rank,status,error
+1,vertical,4,6,0.478,3,success,
+1,translation,4,6,0.3265,3,success,
+1,nuth_kaab,4,6,0.3294,3,success,
+1,joint_gradient,4,6,0.3197,3,success,
+2,vertical,4,6,0.4913,3,success,
+2,translation,4,6,0.3294,3,success,
+2,nuth_kaab,4,6,0.3277,3,success,
+2,joint_gradient,4,6,0.3127,3,success,
+3,vertical,4,6,0.4747,3,success,
+3,translation,4,6,0.338,3,success,
+3,nuth_kaab,4,6,0.3288,3,success,
+3,joint_gradient,4,6,0.3713,3,success,

@@ -1,0 +1,4 @@
+﻿run,returncode,status,original_workflow_seconds,parent_wall_seconds,peak_working_set_bytes,peak_working_set_mib,rss_after_workflow_mib,original_network_solve_calls,common_support_cells
+1,0,success,55.1310462,57.02264370000921,1198555136,1143.031,308.129,4,2723734
+2,0,success,54.8794713,56.79120300011709,1198530560,1143.008,308.578,4,2723734
+3,0,success,55.1467264,57.024032100103796,1199321088,1143.762,307.68,4,2723734

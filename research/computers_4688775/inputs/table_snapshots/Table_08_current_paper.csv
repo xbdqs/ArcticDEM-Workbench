@@ -1,0 +1,6 @@
+Measured scope,Runs,Median (s),Mean ± SD (s),Range (s)
+Complete four-method script,18,56.073,56.171 ± 0.523,55.617–57.818
+Vertical-only method block,18,0.780,0.781 ± 0.014,0.759–0.808
+Direct translation method block,18,8.486,8.479 ± 0.064,8.370–8.609
+Nuth–Kääb method block,18,9.325,9.346 ± 0.077,9.249–9.517
+Joint-gradient method block,18,14.602,14.746 ± 0.380,14.500–15.959
